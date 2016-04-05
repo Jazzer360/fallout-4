@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg width="550" height="550" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" r="275" fill="#e8bf28" cy="275" cx="275"/>
+  <circle id="svg_2" r="50" cy="275" cx="275"/>
+  <path id="svg_3" d="m357,133a164,164 0 1 1 -164,0" stroke-dasharray="171.74" fill="none" stroke-width="175" stroke="#000"/>
+ </g>
+</svg>

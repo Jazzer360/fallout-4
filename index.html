@@ -1,5 +1,6 @@
 ---
 layout: default
+js: scripts/listcollapse.js
 ---
 
 {% assign aid_items = site.data.items | where:"type","aid" | sort:"name" %}
@@ -7,17 +8,31 @@ layout: default
 {% assign reagents = site.data.items | where:"type","reagent" | sort:"name" %}
 {% assign salvaged_items = site.data.items | where:"type","salvaged" | sort:"name" %}
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-xs-12">
-    {% for item in aid_items %}
-    <p>{{ item.name }} - {{ item.type }}</p>
-    {% endfor %}
-  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+      <h4>Crafted items</h4>
+      <ul class="list-group">
+        {% for item in crafted_items %}
+        {% include list-item.html item=item type='crafted' %}
+        {% endfor %}
+      </ul>
+    </div>
   
-
-  <div class="col-lg-4 col-md-6 col-xs-12">
-    {% for item in crafted_items %}
-    <p>{{ item.name }} - {{ item.type }}</p>
-    {% endfor %}
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+      <h4>Items used in crafting</h4>
+      <ul class="list-group">
+        {% for item in reagents %}
+        {% include list-item.html item=item type='reagent' %}
+        {% endfor %}
+    </div>
+  
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+      <h4>Items not used in crafting</h4>
+      <ul class="list-group">
+        {% for item in aid_items %}
+        {% include list-item.html item=item %}
+        {% endfor %}
+    </div>
   </div>
 </div>

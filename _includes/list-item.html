@@ -1,0 +1,19 @@
+{% assign item = include.item %}
+{% assign type = include.type %}
+<li class="list-group-item">
+  {{ item.name }}<span class="weight">{{ item.weight }}</span>
+  <div class="pull-right">
+    {% for effect in item.effect %}
+    <span class="{{ effect[0] }}">{{ effect[1] }}</span>
+    {% endfor %}
+  </div>
+</li>
+{% if type == 'crafted' %}
+<ul class="sublist">
+  {% for component in item.components %}
+  <li>{{ component.id }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% if type == 'reagent' %}
+{% endif %}
