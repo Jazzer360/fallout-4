@@ -3,18 +3,15 @@ layout: default
 js: scripts/listcollapse.js
 ---
 
-{% assign aid_items = site.data.items | where:"type","aid" | sort:"name" %}
-{% assign crafted_items = site.data.items | where:"type","crafted" | sort:"name" %}
-{% assign reagents = site.data.items | where:"type","reagent" | sort:"name" %}
-{% assign salvaged_items = site.data.items | where:"type","salvaged" | sort:"name" %}
-
 <div class="container">
   <div class="row">
     <div class="col-lg-4 col-sm-6 col-xs-12">
       <h4>Crafted items</h4>
       <ul class="list-group">
-        {% for item in crafted_items %}
-        {% include list-item.html item=item type='crafted' %}
+        {% for item in site.data.items %}
+          {% if item.components %}
+            {% include list-item.html item=item type='crafted' %}
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
@@ -22,16 +19,22 @@ js: scripts/listcollapse.js
     <div class="col-lg-4 col-sm-6 col-xs-12">
       <h4>Items used in crafting</h4>
       <ul class="list-group">
-        {% for item in reagents %}
-        {% include list-item.html item=item type='reagent' %}
+        {% for item in site.data.items %}
+          {% if item.used_in %}
+            {% include list-item.html item=item type='reagent' %}
+          {% endif %}
         {% endfor %}
     </div>
   
     <div class="col-lg-4 col-sm-6 col-xs-12">
       <h4>Items not used in crafting</h4>
       <ul class="list-group">
-        {% for item in aid_items %}
-        {% include list-item.html item=item %}
+        {% for item in site.data.items %}
+          {% unless item.components or item.used_in %}
+            {% if item.effect %}
+              {% include list-item.html item=item type='aid' %}
+            {% endif %}
+          {% endunless %}
         {% endfor %}
     </div>
   </div>

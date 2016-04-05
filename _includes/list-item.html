@@ -8,12 +8,21 @@
     {% endfor %}
   </div>
 </li>
+
 {% if type == 'crafted' %}
 <ul class="sublist">
+    <p>Crafting components</p>
   {% for component in item.components %}
   <li>{{ component.id }}</li>
   {% endfor %}
 </ul>
 {% endif %}
+
 {% if type == 'reagent' %}
+<ul class="sublist">
+    <p>Used in</p>
+  {% for recipe in item.used_in %}
+  <li>{{ recipe.id }}</li>
+  {% endfor %}
+</ul>
 {% endif %}
