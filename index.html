@@ -2,9 +2,22 @@
 layout: default
 ---
 
-<div class="home">
+{% assign aid_items = site.data.items | where:"type","aid" | sort:"name" %}
+{% assign crafted_items = site.data.items | where:"type","crafted" | sort:"name" %}
+{% assign reagents = site.data.items | where:"type","reagent" | sort:"name" %}
+{% assign salvaged_items = site.data.items | where:"type","salvaged" | sort:"name" %}
 
-  {% assign item = site.data.items | where:"id","0004a151" | first %}
-  <p>{{ item }}</p>
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-xs-12">
+    {% for item in aid_items %}
+    <p>{{ item.name }} - {{ item.type }}</p>
+    {% endfor %}
+  </div>
+  
 
+  <div class="col-lg-4 col-md-6 col-xs-12">
+    {% for item in crafted_items %}
+    <p>{{ item.name }} - {{ item.type }}</p>
+    {% endfor %}
+  </div>
 </div>
