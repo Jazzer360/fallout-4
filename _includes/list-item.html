@@ -1,19 +1,20 @@
 {% assign item = include.item %}
 {% assign type = include.type %}
 <li class="list-group-item">
-  {{ item.name }}<span class="weight">{{ item.weight }}</span>
-  <div class="pull-right">
+  <span class="item-name">{{ item.name }}</span>
+  <div class="effects pull-right">
     {% for effect in item.effect %}
     <span class="{{ effect[0] }}">{{ effect[1] }}</span>
     {% endfor %}
   </div>
+  <span class="weight">Weight: {{ item.weight }}</span>
 </li>
 
 {% if type == 'crafted' %}
 <ul class="sublist">
     <p>Crafting components</p>
   {% for component in item.components %}
-  <li>{{ component.id }}</li>
+  <li>{{ component.qty }} x {% include id-to-name.html id=component.id %}</li>
   {% endfor %}
 </ul>
 {% endif %}
@@ -22,7 +23,7 @@
 <ul class="sublist">
     <p>Used in</p>
   {% for recipe in item.used_in %}
-  <li>{{ recipe.id }}</li>
+  <li>{{ recipe.qty }} x {% include id-to-name.html id=recipe.id %}</li>
   {% endfor %}
 </ul>
 {% endif %}

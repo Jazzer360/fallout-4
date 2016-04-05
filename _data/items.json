@@ -1,6 +1,5 @@
 [{
     "id": "001f24b6",
-    "type": "aid",
     "name": "Ash blossom",
     "effect": {
         "health": 10,
@@ -10,7 +9,6 @@
 },
 {
     "id": "0004a151",
-    "type": "crafted",
     "name": "Baked bloatfly",
     "effect": {
         "health": 40,
@@ -25,7 +23,6 @@
 },
 {
     "id": "0002fbe4",
-    "type": "aid",
     "name": "Blamco Brand Mac and Cheese",
     "effect": {
         "health": 20,
@@ -35,7 +32,6 @@
 },
 {
     "id": "000330f4",
-    "type": "reagent",
     "name": "Bloatfly meat",
     "effect": {
         "health": 5,
@@ -50,7 +46,6 @@
 },
 {
     "id": "00074d0d",
-    "type": "reagent",
     "name": "Bloodbug meat",
     "effect": {
         "health": 45,
@@ -65,7 +60,6 @@
 },
 {
     "id": "0004693f",
-    "type": "crafted",
     "name": "Bloodbug steak",
     "effect": {
         "health": 105,
@@ -81,7 +75,6 @@
 {
     "id": "001c25ee",
     "name": "Bloodleaf",
-    "type": "reagent",
     "effect": {
         "health": 10,
         "rads": 2
@@ -104,7 +97,6 @@
 {
     "id": "0004a13f",
     "name": "Brahmin meat",
-    "type": "reagent",
     "effect": {
         "health": 10,
         "rads": 8
@@ -118,7 +110,6 @@
 {
     "id": "001c0fc2",
     "name": "Brain fungus",
-    "type": "reagent",
     "effect": {
         "health": 10,
         "rads": 3
@@ -131,7 +122,6 @@
 },
 {
     "id": "000330f6",
-    "type": "aid",
     "name": "Bubblegum",
     "effect": {
         "health": 10,
@@ -141,7 +131,6 @@
 },
 {
     "id": "000bea58",
-    "type": "aid",
     "name": "Canned dog food",
     "effect": {
         "health": 10,
@@ -152,7 +141,6 @@
 {
     "id": "000f742e",
     "name": "Carrot",
-    "type": "reagent",
     "farmable": true,
     "effect": {
         "health": 10,
@@ -183,7 +171,6 @@
 },
 {
     "id": "001c4013",
-    "type": "aid",
     "name": "Carrot flower",
     "effect": {
         "health": 10,
@@ -193,7 +180,6 @@
 },
 {
     "id": "000939b8",
-    "type": "aid",
     "name": "Cat meat",
     "effect": {
         "health": 10,
@@ -204,7 +190,6 @@
 {
     "id": "00046942",
     "name": "Cooked softshell meat",
-    "type": "crafted",
     "effect": {
         "health": 85,
         "max_ap": 15
@@ -219,7 +204,6 @@
 {
     "id": "000330f8",
     "name": "Corn",
-    "type": "reagent",
     "farmable": true,
     "effect": {
         "health": 10,
@@ -234,7 +218,6 @@
 },
 {
     "id": "000330ee",
-    "type": "aid",
     "name": "Cram",
     "effect": {
         "health": 25,
@@ -245,7 +228,6 @@
 {
     "id": "000330fa",
     "name": "Crispy squirrel bits",
-    "type": "crafted",
     "effect": {
         "health": 35
     },
@@ -258,7 +240,6 @@
 },
 {
     "id": "0002fbf7",
-    "type": "aid",
     "name": "Dandy Boy Apples",
     "effect": {
         "health": 10,
@@ -269,7 +250,6 @@
 {
     "id": "00046939",
     "name": "Deathclaw egg",
-    "type": "reagent",
     "effect": {
         "health": 45,
         "rads": 7
@@ -292,7 +272,6 @@
 {
     "id": "0004693c",
     "name": "Deathclaw egg omelette",
-    "type": "crafted",
     "effect": {
         "health": 115,
         "regen_health": "small"

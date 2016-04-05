@@ -1,0 +1,2 @@
+{% assign item_to_id = site.data.items | where:"id",include.id | first %}
+{{ item_to_id.name }}

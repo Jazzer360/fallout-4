@@ -33,14 +33,35 @@
 
 .sublist {
   display: none;
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid $grey-color-light;
+  border-top: 0;
+
+  p {
+    color: $grey-color;
+    font-size: 8pt;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+.effects {
+  line-height: 35px;
+  vertical-align: middle;
 }
 
 .weight {
   margin-left: 10px;
+  font-size: 8pt;
+  display: block;
 }
 
 @each $effect in $effects {
   .#{$effect} {
+    font-weight: bold;
     display: inline;
     position: relative;
     margin-right: 20px;
@@ -59,3 +80,4 @@
     }
   }
 }
+
