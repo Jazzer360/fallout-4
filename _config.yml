@@ -6,16 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Fallout 4 Crafting Aid
+email: jazzer36@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Simplified reagent and recipe listings for Fallout 4 cooking and chemistry.
 baseurl: "/fallout-4" # the subpath of your site, e.g. /blog
 url: "http://blog.derekjass.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: DerekJass
+github_username: Jazzer360
 
-# Build settings
-markdown: kramdown
+### Build settings ###
+
+# Plugins
+gems:
+  - jekyll-coffeescript
+
+# Outputting
+permalink: pretty
+
+### Plugin settings ###
+sass:
+  style: compressed

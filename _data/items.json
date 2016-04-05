@@ -1,6 +1,4 @@
 {
-    // Item types: aid, reagent, crafted, salvaged
-
     "001f24b6": {
         "type": "aid",
         "name": "Ash blossom",
@@ -270,7 +268,7 @@
         {
             "qty": 1,
             "id": "001b5cc4"
-            }]
+        }]
     },
     "0004693c": {
         "name": "Deathclaw egg omelette",
