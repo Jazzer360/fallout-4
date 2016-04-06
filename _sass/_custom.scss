@@ -39,6 +39,7 @@
   border-radius: 0 0 5px 5px;
   border: 1px solid $grey-color-light;
   border-top: 0;
+  background-color: white;
 
   p {
     color: $grey-color;
@@ -64,20 +65,23 @@
     font-weight: bold;
     display: inline;
     position: relative;
-    margin-right: 20px;
+    margin-right: 24px;
     margin-left: 4px;
 
     &:after {
       content: "";
       background-image: url('../images/#{$effect}.svg');
-      background-size: 16px 16px;
+      background-size: 20px 20px;
       display: inline-block;
       position: absolute;
-      width: 16px;
-      height: 16px;
-      top: 0px;
-      right: -20px;
+      width: 20px;
+      height: 20px;
+      top: -2px;
+      right: -24px;
     }
   }
 }
 
+.content-wrapper {
+  background-color: #F6F6F6;
+}

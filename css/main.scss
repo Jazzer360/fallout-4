@@ -10,7 +10,15 @@ $xs: 767px;
 $sm: 991px;
 $md: 1199px;
 
-$effects: (rads, health);
+$effects: (
+    rads, 
+    health, 
+    rad_resist, 
+    max_health, 
+    max_ap, 
+    regen_health,
+    agility,
+    carry_weight);
 
 
 // Use media queries like this:

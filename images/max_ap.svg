@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000000" id="svg_1" d="m134.958282,300l-131.437832,-181.065829l86.562186,0l131.437832,181.065829l-131.437832,181.065683l-86.562186,0l131.437832,-181.065683z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
+  <path id="svg_4" stroke="#000000" d="m321.93782,300l-131.437832,-181.065829l86.562186,0l131.437832,181.065829l-131.437832,181.065684l-86.562186,0l131.437832,-181.065684z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
+  <path id="svg_5" stroke="#000000" d="m508.93782,300l-131.437832,-181.065829l86.562186,0l131.437832,181.065829l-131.437832,181.065684l-86.562186,0l131.437832,-181.065684z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
+  <path stroke="#000000" id="svg_2" d="m208.759984,336.390618l128.560614,0l0,-128.560627l131.878786,0l0,128.560627l128.560627,0l0,131.878799l-128.560627,0l0,128.560614l-131.878786,0l0,-128.560614l-128.560614,0l0,-131.878799z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#00bf00"/>
+ </g>
+</svg>

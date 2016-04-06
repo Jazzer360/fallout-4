@@ -141,7 +141,6 @@
 {
     "id": "000f742e",
     "name": "Carrot",
-    "farmable": true,
     "effect": {
         "health": 10,
         "rads": 3
@@ -204,7 +203,6 @@
 {
     "id": "000330f8",
     "name": "Corn",
-    "farmable": true,
     "effect": {
         "health": 10,
         "rads": 3
@@ -285,5 +283,214 @@
     {
         "qty": 1,
         "id": "00052409"
+    }]
+},
+{
+    "id": "00074d0e",
+    "name": "Deathclaw meat",
+    "effect": {
+        "health": 90,
+        "rads": 6
+    },
+    "weight": 1,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "00101293"
+    }]
+},
+{
+    "id": "00101293",
+    "name": "Deathclaw steak",
+    "effect": {
+        "health": 185,
+        "agility": 1
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00074d0e"
+    }]
+},
+{
+    "id": "001a71e7",
+    "name": "Deathclaw Wellingham",
+    "effect": {
+        "health": 115,
+        "regen_health": "small"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00046939"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 1,
+        "id": "0009dcc4"
+    }]
+},
+{
+    "id": "001ee1ff",
+    "name": "Experimental plant",
+    "effect": {
+        "health": 10,
+        "rads": 5
+    },
+    "weight": 0.1
+},
+{
+    "id": "000330b4",
+    "name": "Fancy Lads Snack Cakes",
+    "effect": {
+        "health": 10,
+        "rads": 4
+    },
+    "weight": 0.1
+},
+{
+    "id": "00047648",
+    "name": "Food paste",
+    "effect": {
+        "health": 50,
+        "endurance": 1
+    },
+    "weight": 0.3
+},
+{
+    "id": "001994aa",
+    "name": "Fresh carrot",
+    "effect": {
+        "health": 20
+    },
+    "weight": 0.1
+},
+{
+    "id": "001994a9",
+    "name": "Fresh corn",
+    "effect": {
+        "health": 20
+    },
+    "weight": 0.1
+},
+{
+    "id": "001994ab",
+    "name": "Fresh melon",
+    "effect": {
+        "health": 20
+    },
+    "weight": 0.1
+},
+{
+    "id": "001847b6",
+    "name": "Fresh mutfruit",
+    "effect": {
+        "health": 20
+    },
+    "weight": 0.1
+},
+{
+    "id": "001c0fc3",
+    "name": "Glowing fungus",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 0.1,
+    "used_in": [
+    {
+        "qty": 3,
+        "id": "00023742"
+    }]
+},
+{
+    "id": "000ef24d",
+    "name": "Gourd",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 1,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "0004696a"
+    }]
+},
+{
+    "id": "001c4011",
+    "name": "Gourd blossom",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 1
+},
+{
+    "id": "0019797d",
+    "name": "Grilled radroach",
+    "effect": {
+        "health": 30
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "00033106"
+    }]
+},
+{
+    "id": "00046952",
+    "name": "Grilled radstag",
+    "effect": {
+        "health": 120,
+        "carry_weight": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0004a14f"
+    }]
+},
+{
+    "id": "000330fc",
+    "name": "Gum drops",
+    "effect": {
+        "health": 10,
+        "rads": 1
+    },
+    "weight": 0.1
+},
+{
+    "id": "001d33d2",
+    "name": "Happy Birthday sweet roll",
+    "effect": {
+        "health": 20,
+        "rads": 4
+    },
+    "weight": 0
+},
+{
+    "id": "001c3fdc",
+    "name": "Hubflower",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1,
+    "used_in": [
+    {
+        "qty": 2,
+        "id": "0010129a"
+    },
+    {
+        "qty": 2,
+        "id": "0003377d"
     }]
 }]
