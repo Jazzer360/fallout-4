@@ -573,7 +573,7 @@
         "health": 10,
         "rads": 3
     },
-    "weight": 1,
+    "weight": 1
 },
 {
     "id": "001c4010",
@@ -625,6 +625,10 @@
     {
         "qty": 1,
         "id": "0004a152"
+    },
+    {
+        "qty": 1,
+        "id": "0006352f"
     }]
 },
 {
@@ -855,27 +859,6 @@
     "weight": 0.5
 },
 {
-    "id": "00134c68",
-    "name": "Pristine deathclaw egg",
-    "effect": {
-        "health": 45,
-        "rads": 7
-    },
-    "weight": 0.1,
-    "used_in": [{
-        "qty": 1,
-        "id": "001b5cc4"
-    },
-    {
-        "qty": 1,
-        "id": "001a71e7"
-    },
-    {
-        "qty": 1,
-        "id": "0004693c"
-    }]
-},
-{
     "id": "0020d3de",
     "name": "Queen mirelurk meat",
     "effect": {
@@ -932,4 +915,1220 @@
         "qty": 1,
         "id": "000366c0"
     }]
+},
+{
+    "id": "00074d10",
+    "name": "Radscorpion meat",
+    "effect": {
+        "health": 75,
+        "rads": 13
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00046950"
+    }]
+},
+{
+    "id": "00046950",
+    "name": "Radscorpion steak",
+    "effect": {
+        "health": 150,
+        "energy_resist": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00074d10"
+    }]
+},
+{
+    "id": "0004a14f",
+    "name": "Radstag meat",
+    "effect": {
+        "health": 60,
+        "rads": 13
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00046952"
+    },
+    {
+        "qty": 1,
+        "id": "0004696a"
+    }]
+},
+{
+    "id": "0004696a",
+    "name": "Radstag stew",
+    "effect": {
+        "health": 150,
+        "energy_resist": 30
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000ef24d"
+    },
+    {
+        "qty": 1,
+        "id": "0004a14f"
+    },
+    {
+        "qty": 1,
+        "id": "001be2ab"
+    },
+    {
+        "qty": 1,
+        "id": "000366c3"
+    }]
+},
+{
+    "id": "000e0043",
+    "name": "Razorgrain",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "0004a152"
+    },
+    {
+        "qty": 3,
+        "id": "0006352f"
+    },
+    {
+        "qty": 1,
+        "id": "00017c73"
+    }]
+},
+{
+    "id": "0004695a",
+    "name": "Ribeye steak",
+    "effect": {
+        "health": 110
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0004a13f"
+    }]
+},
+{
+    "id": "00046941",
+    "name": "Roasted mirelurk meat",
+    "effect": {
+        "health": 70,
+        "max_ap": 10
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 2,
+        "id": "000330ff"
+    }]
+},
+{
+    "id": "000366ba",
+    "name": "Salisbury Steak",
+    "effect": {
+        "health": 30,
+        "rads": 9
+    },
+    "weight": 0.5
+},
+{
+    "id": "001be2ab",
+    "name": "Silt bean",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "0004696a"
+    }]
+},
+{
+    "id": "0006352f",
+    "name": "Slocum's Buzzbites",
+    "effect": {
+        "health": 10,
+        "ap": 25,
+        "perception": 1
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00020194"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 1,
+        "id": "0023e9d4"
+    },
+    {
+        "qty": 1,
+        "id": "001bf732"
+    },
+    {
+        "qty": 3,
+        "id": "000e0043"
+    }]
+},
+{
+    "id": "00033100",
+    "name": "Softshell mirelurk meat",
+    "effect": {
+        "health": 40,
+        "rads": 15
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 2,
+        "id": "00046942"
+    }]
+},
+{
+    "id": "000366bc",
+    "name": "Squirrel bits",
+    "effect": {
+        "health": 15,
+        "rads": 5
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "000330fa"
+    },
+    {
+        "qty": 1,
+        "id": "000366bb"
+    },
+    {
+        "qty": 1,
+        "id": "00036927"
+    }]
+},
+{
+    "id": "000366bb",
+    "name": "Squirrel on a stick",
+    "effect": {
+        "health": 45
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000731a3"
+    },
+    {
+        "qty": 1,
+        "id": "000366bc"
+    }]
+},
+{
+    "id": "00036927",
+    "name": "Squirrel stew",
+    "effect": {
+        "health": 105,
+        "xp": "+2%"
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001c25ee"
+    },
+    {
+        "qty": 1,
+        "id": "000f742e"
+    },
+    {
+        "qty": 2,
+        "id": "000366bf"
+    },
+    {
+        "qty": 1,
+        "id": "000366bc"
+    },
+    {
+        "qty": 1,
+        "id": "0009dcc4"
+    }]
+},
+{
+    "id": "00046945",
+    "name": "Stingwing filet",
+    "effect": {
+        "health": 130,
+        "perception": 1
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00074d0f"
+    }]
+},
+{
+    "id": "00074d0f",
+    "name": "Stingwing meat",
+    "effect": {
+        "health": 65,
+        "rads": 9
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "00046945"
+    }]
+},
+{
+    "id": "000330f2",
+    "name": "Sugar Bombs",
+    "effect": {
+        "health": 15,
+        "rads": 7
+    },
+    "weight": 0.5
+},
+{
+    "id": "000366be",
+    "name": "Sweet roll",
+    "effect": {
+        "health": 20,
+        "rads": 4
+    },
+    "weight": 0.1
+},
+{
+    "id": "0016ca4f",
+    "name": "Synthetic gorilla meat",
+    "effect": {
+        "health": 30
+    },
+    "weight": 1
+},
+{
+    "id": "000d981d",
+    "name": "Tarberry",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 2,
+        "id": "00058af4"
+    },
+    {
+        "qty": 2,
+        "id": "000518bb"
+    }]
+},
+{
+    "id": "001b5cc4",
+    "name": "Tasty deathclaw omelette",
+    "effect": {
+        "health": 115,
+        "max_health": 50
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00052409"
+    },
+    {
+        "qty": 2,
+        "id": "000f742e"
+    },
+    {
+        "qty": 2,
+        "id": "00033102"
+    },
+    {
+        "qty": 1,
+        "id": "00046939"
+    },
+    {
+        "qty": 1,
+        "id": "000366c0"
+    }]
+},
+{
+    "id": "0009dcc4",
+    "name": "Tato",
+    "effect": {
+        "health": 10,
+        "rads": 5
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "00036927"
+    }, 
+    {
+        "qty": 1,
+        "id": "0004a3b9"
+    },
+    {
+        "qty": 3,
+        "id": "000657fe"
+    },
+    {
+        "qty": 1,
+        "id": "0004696d"
+    },
+    {
+        "qty": 1,
+        "id": "001a71e7"
+    }]
+},
+{
+    "id": "001c400d",
+    "name": "Tato flower",
+    "effect": {
+        "health": 10,
+        "rads": 5
+    },
+    "weight": 0.5
+},
+{
+    "id": "0009f24b",
+    "name": "Thistle",
+    "effect": {
+        "health": 10,
+        "rads": 5
+    },
+    "weight": 0.1
+},
+{
+    "id": "0004a3b9",
+    "name": "Vegetable soup",
+    "effect": {
+        "health": 55,
+        "rad_resist": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000f742e"
+    },
+    {
+        "qty": 1,
+        "id": "0009dcc4"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    }]
+},
+{
+    "id": "001c4012",
+    "name": "Wild corn",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 0.1
+},
+{
+    "id": "001c400e",
+    "name": "Wild mutfruit",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1
+},
+{
+    "id": "001c400f",
+    "name": "Wild razorgrain",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1
+},
+{
+    "id": "0006654f",
+    "name": "Wild tarberry",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1
+},
+{
+    "id": "00047660",
+    "name": "Yao guai meat",
+    "effect": {
+        "health": 80,
+        "rads": 6
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00046955"
+    },
+    {
+        "qty": 1,
+        "id": "0004696d"
+    }]
+},
+{
+    "id": "00046955",
+    "name": "Yao guai ribs",
+    "effect": {
+        "health": 165,
+        "damage_resist": 15
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00047660"
+    }]
+},
+{
+    "id": "0004696d",
+    "name": "Yao guai roast",
+    "effect": {
+        "health": 210,
+        "melee_damage": 10
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000f742e"
+    },
+    {
+        "qty": 1,
+        "id": "0009dcc4"
+    },
+    {
+        "qty": 1,
+        "id": "00047660"
+    }]
+},
+{
+    "id": "000366bd",
+    "name": "Yum Yum Deviled Eggs",
+    "effect": {
+        "health": 15,
+        "rads": 5
+    },
+    "weight": 0.5
+},
+{
+    "id": "0011ea93",
+    "name": "Beer",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "00052409",
+    "name": "Blood pack",
+    "effect": {
+        "health": 50
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00058ab4"
+    },
+    {
+        "qty": 1,
+        "id": "00058ab8"
+    },
+    {
+        "qty": 1,
+        "id": "00023736"
+    },
+    {
+        "qty": 1,
+        "id": "001b5cc4"
+    },
+    {
+        "qty": 1,
+        "id": "0004693c"
+    }]
+},
+{
+    "id": "00050c28",
+    "name": "Bobrov's best moonshine",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 25
+    },
+    "weight": 0.5
+},
+{
+    "id": "000366c4",
+    "name": "Bourbon",
+    "effect": {
+        "endurance": 1,
+        "strength": 1,
+        "intelligence": -1
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00058ae9"
+    }]
+},
+{
+    "id": "000e9284",
+    "name": "Deezer's Lemonade",
+    "effect": {
+        "health": 50
+    },
+    "weight": 0.5
+},
+{
+    "id": "00101295",
+    "name": "Dirty Wastelander",
+    "effect": {
+        "strength": 2,
+        "charisma": 1,
+        "intelligence": -2
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00033102"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 2,
+        "id": "000366c1"
+    }]
+},
+{
+    "id": "000366bf",
+    "name": "Dirty Water",
+    "effect": {
+        "health": 20,
+        "rads": 7
+    },
+    "weight": 0.5,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "00102157"
+    },
+    {
+        "qty": 1,
+        "id": "0004693e"
+    },
+    {
+        "qty": 1,
+        "id": "00017c73"
+    },
+    {
+        "qty": 3,
+        "id": "000366c0"
+    },
+    {
+        "qty": 1,
+        "id": "0006352f"
+    },
+    {
+        "qty": 2,
+        "id": "00036927"
+    },
+    {
+        "qty": 1,
+        "id": "0004a3b9"
+    },
+    {
+        "qty": 1,
+        "id": "001a71e7"
+    }]
+},
+{
+    "id": "000a4944",
+    "name": "Drugged water",
+    "effect": {
+        "health": 20,
+        "perception": -1,
+        "rads": 7
+    },
+    "weight": 0.5
+},
+{
+    "id": "00058ab4",
+    "name": "Glowing blood pack",
+    "effect": {
+        "health": "40%",
+        "rad_resist": 75
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001bf72f"
+    },
+    {
+        "qty": 1,
+        "id": "00052409"
+    },
+    {
+        "qty": 1,
+        "id": "000e2f68"
+    }]
+},
+{
+    "id": "000f932c",
+    "name": "Gwinnett ale",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "000f932d",
+    "name": "Gwinnett brew",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "000f932b",
+    "name": "Gwinnett lager",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "000f9329",
+    "name": "Gwinnett pale",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "000f932a",
+    "name": "Gwinnett pilsner",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "00022792",
+    "name": "Gwinnett stout",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1d",
+    "name": "Ice cold beer",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b17",
+    "name": "Ice cold Gwinnett ale",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b18",
+    "name": "Ice cold Gwinnett brew",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b19",
+    "name": "Ice cold Gwinnett lager",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1a",
+    "name": "Ice cold Gwinnett pale",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1b",
+    "name": "Ice cold Gwinnett pilsner",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1c",
+    "name": "Ice cold Gwinnett stout",
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b24",
+    "name": "Ice cold Nuka Cherry",
+    "effect": {
+        "health": 75,
+        "ap": 35,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "00178b23",
+    "name": "Ice cold Nuka Cola",
+    "effect": {
+        "health": 45,
+        "ap": 20,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "00178b25",
+    "name": "Ice cold Nuka Cola Quantum",
+    "effect": {
+        "health": 650,
+        "ap": 125,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "0021681d",
+    "name": "Institute bottled water",
+    "effect": {
+        "health": 40
+    },
+    "weight": 0.5
+},
+{
+    "id": "000e2f68",
+    "name": "Irradiated blood",
+    "effect": {
+        "health": 50,
+        "rads": 20
+    },
+    "weight": 0.3,
+    "used_in": [{
+        "qty": 1,
+        "id": "00058ab4"
+    }]
+},
+{
+    "id": "00048360",
+    "name": "Nuka Cherry",
+    "effect": {
+        "health": 50,
+        "ap": 25,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "0004835d",
+    "name": "Nuka Cola",
+    "effect": {
+        "health": 20,
+        "ap": 10,
+        "rads": 5
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00101295"
+    },
+    {
+        "qty": 1,
+        "id": "00058aad"
+    },
+    {
+        "qty": 1,
+        "id": "00058af7"
+    }]
+},
+{
+    "id": "0004835f",
+    "name": "Nuka Cola Quantum",
+    "effect": {
+        "health": 400,
+        "ap": 100,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "001ad736",
+    "name": "Poisoned wine",
+    "effect": {
+        "strength": 1,
+        "intelligence": -1,
+        "max_ap": 15
+    },
+    "weight": 1
+},
+{
+    "id": "000366c0",
+    "name": "Purified water",
+    "effect": {
+        "health": 40
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "000366bf"
+    }],
+    "used_in": [{
+        "qty": 1,
+        "id": "0004693d"
+    },
+    {
+        "qty": 1,
+        "id": "001b5cc4"
+    },
+    {
+        "qty": 1,
+        "id": "000657fe"
+    },
+    {
+        "qty": 2,
+        "id": "00058ab8"
+    }]
+},
+{
+    "id": "00058ab8",
+    "name": "Refreshing beverage",
+    "effect": {
+        "health": 500,
+        "rads": -1000,
+        "cure_addictions": 1
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "001bf72f"
+    },
+    {
+        "qty": 1,
+        "id": "00052409"
+    },
+    {
+        "qty": 2,
+        "id": "000366c0"
+    },
+    {
+        "qty": 2,
+        "id": "00023742"
+    },
+    {
+        "qty": 1,
+        "id": "00023736"
+    }]
+},
+{
+    "id": "00145857",
+    "name": "Rum",
+    "effect": {
+        "agility": 1,
+        "strength": 1,
+        "intelligence": -1
+    },
+    "weight": 1
+},
+{
+    "id": "000366c3",
+    "name": "Vodka",
+    "effect": {
+        "strength": 1,
+        "intelligence": -1,
+        "max_health": 25
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "0004696a"
+    }]
+},
+{
+    "id": "000366c1",
+    "name": "Whiskey",
+    "effect": {
+        "strength": 2,
+        "intelligence": -1
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 2,
+        "id": "00101295"
+    },
+    {
+        "qty": 1,
+        "id": "0010129a"
+    }]
+},
+{
+    "id": "000366c2",
+    "name": "Wine",
+    "effect": {
+        "strength": 1,
+        "intelligence": -1,
+        "max_ap": 15
+    },
+    "weight": 1
+},
+{
+    "id": "000459c5",
+    "name": "Addictol",
+    "effect": {
+        "cure_addictions": 1
+    },
+    "weight": 0.1
+},
+{
+    "id": "000518bb",
+    "name": "Berry Mentats",
+    "effect": {
+        "infra_vision": "8m",
+        "intelligence": 5
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00060e73"
+    },
+    {
+        "qty": 1,
+        "id": "0003377b"
+    },
+    {
+        "qty": 2,
+        "id": "000d981d"
+    }]
+},
+{
+    "id": "00058aa3",
+    "name": "Buffjet",
+    "effect": {
+        "slow_time": "15s",
+        "strength": 3,
+        "endurance": 3,
+        "max_health": 65,
+        "max_ap": 35
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00033778"
+    },
+    {
+        "qty": 1,
+        "id": "000366c5"
+    }]
+},
+{
+    "id": "00033778",
+    "name": "Buffout",
+    "effect": {
+        "strength": 2,
+        "endurance": 2,
+        "max_health": 50
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00058aa3"
+    },
+    {
+        "qty": 1,
+        "id": "00058aa5"
+    },
+    {
+        "qty": 1,
+        "id": "000628ca"
+    },
+    {
+        "qty": 1,
+        "id": "00058aac"
+    }]
+},
+{
+    "id": "00058aa5",
+    "name": "Bufftats",
+    "effect": {
+        "strength": 3,
+        "endurance": 3,
+        "perception": 3,
+        "max_health": 65
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00033778"
+    },
+    {
+        "qty": 1,
+        "id": "0003377b"
+    }]
+},
+{
+    "id": "00058aa7",
+    "name": "Calmex",
+    "effect": {
+        "sneak_damage": "2x",
+        "perception": 3,
+        "agility": 3
+    },
+    "weight": 0.1
+},
+{
+    "id": "00156d0b",
+    "name": "Daddy-O",
+    "effect": {
+        "intelligence": 3,
+        "perception": 3,
+        "charisma": -2
+    },
+    "weight": 0.1
+},
+{
+    "id": "00150729",
+    "name": "Day Tripper",
+    "effect": {
+        "luck": 3,
+        "charisma": 3,
+        "strength": -2
+    },
+    "weight": 0.1
+},
+{
+    "id": "000628ca",
+    "name": "Fury",
+    "effect": {
+        "melee_damage": "+50%",
+        "damage_resist": 25,
+        "perception": -5
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00058ae9"
+    },
+    {
+        "qty": 1,
+        "id": "00033778"
+    }]
+},
+{
+    "id": "0010129a",
+    "name": "Grape Mentats",
+    "effect": {
+        "barter": "10%",
+        "charisma": 8
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "001c3fdc"
+    },
+    {
+        "qty": 1,
+        "id": "0003377b"
+    },
+    {
+        "qty": 1,
+        "id": "000366c1"
+    }]
+},
+{
+    "id": "000ec4f7",
+    "name": "Mysterious serum",
+    "effect": {
+        "damage_resist": 50,
+        "strength": 5,
+        "rads": "-10/s"
+    },
+    "weight": 0.1
 }]

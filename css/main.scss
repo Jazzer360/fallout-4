@@ -11,18 +11,29 @@ $sm: 991px;
 $md: 1199px;
 
 $effects: (
-    rads, 
-    health, 
-    rad_resist, 
-    max_health, 
-    max_ap, 
-    regen_health,
-    agility,
-    endurance,
-    carry_weight,
+    rads,
+    health,
     ap,
+    damage_resist,
+    energy_resist,
+    rad_resist,
+    max_health,
+    max_ap,
+    regen_health,
+    strength,
+    perception,
+    endurance,
+    charisma,
+    intelligence,
+    agility,
+    luck,
+    slow_time,
+    melee_damage,
+    carry_weight,
     underwater_breathing,
-    cure_addictions);
+    cure_addictions,
+    xp,
+    infra_vision);
 
 
 // Use media queries like this:

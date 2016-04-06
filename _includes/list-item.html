@@ -1,12 +1,12 @@
 {% assign item = include.item %}
 {% assign type = include.type %}
 <li class="{{ type }} list-group-item">
-  <span class="item-name">{{ item.name }}</span>
   <div class="effects pull-right">
     {% for effect in item.effect %}
     <span class="{{ effect[0] }}">{{ effect[1] }}</span>
     {% endfor %}
   </div>
+  <span class="item-name">{{ item.name }}</span>
   <span class="weight">Weight: {{ item.weight }}</span>
   <i class="expand fa fa-chevron-down"></i>
 </li>

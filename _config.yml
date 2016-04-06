@@ -18,6 +18,9 @@ github_username: Jazzer360
 
 ### Build settings ###
 
+exclude:
+  - validate.py
+
 # Plugins
 gems:
   - jekyll-coffeescript
