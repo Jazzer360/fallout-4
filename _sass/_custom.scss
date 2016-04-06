@@ -85,3 +85,32 @@
 .content-wrapper {
   background-color: #F6F6F6;
 }
+
+.aid {
+  .expand {
+    display: none;
+  }
+}
+
+.reagent,
+.crafted {
+  position: relative;
+
+  .expand {
+    color: $grey-color;
+    position: absolute;
+    width: 14px;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    margin: 0 auto;
+
+    -webkit-transition: -webkit-transform 0.4s linear;
+    transition: transform 0.4s linear;
+  }
+}
+
+.flipped {
+    -webkit-transform: scale(1, -1);
+    transform: scale(1, -1);
+}

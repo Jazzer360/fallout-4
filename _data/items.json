@@ -493,4 +493,399 @@
         "qty": 2,
         "id": "0003377d"
     }]
+},
+{
+    "id": "000330fd",
+    "name": "Iguana bits",
+    "effect": {
+        "health": 15,
+        "rads": 5
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "000330fe"
+    },
+    {
+        "qty": 3,
+        "id": "00102157"
+    }]
+},
+{
+    "id": "000330fe",
+    "name": "Iguana on a stick",
+    "effect": {
+        "health": 40
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000330fd"
+    },
+    {
+        "qty": 1,
+        "id": "000731a3"
+    }]
+},
+{
+    "id": "00102157",
+    "name": "Iguana soup",
+    "effect": {
+        "health": 95
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000f742e"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 3,
+        "id": "000330fd"
+    }]
+},
+{
+    "id": "000366b9",
+    "name": "InstaMash",
+    "effect": {
+        "health": 20,
+        "rads": 7
+    },
+    "weight": 0.5
+},
+{
+    "id": "0021681e",
+    "name": "Institute food packet",
+    "effect": {
+        "health": 25
+    },
+    "weight": 0.5
+},
+{
+    "id": "000fafeb",
+    "name": "Melon",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 1,
+},
+{
+    "id": "001c4010",
+    "name": "Melon blossom",
+    "effect": {
+        "health": 10,
+        "rads": 3
+    },
+    "weight": 1
+},
+{
+    "id": "0004a152",
+    "name": "Mirelurk cake",
+    "effect": {
+        "health": 140,
+        "underwater_breathing": "30m"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0023e9d4"
+    },
+    {
+        "qty": 1,
+        "id": "000330ff"
+    },
+    {
+        "qty": 1,
+        "id": "001bf732"
+    },
+    {
+        "qty": 1,
+        "id": "000e0043"
+    }]
+},
+{
+    "id": "0023e9d4",
+    "name": "Mirelurk egg",
+    "effect": {
+        "health": 9,
+        "rads": 12
+    },
+    "weight": 1,
+    "used_in": [{
+        "qty": 1,
+        "id": "0004693e"
+    },
+    {
+        "qty": 1,
+        "id": "0004a152"
+    }]
+},
+{
+    "id": "0004693e",
+    "name": "Mirelurk egg omelette",
+    "effect": {
+        "health": 45,
+        "ap": 50
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0023e9d4"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    }]
+},
+{
+    "id": "000330ff",
+    "name": "Mirelurk meat",
+    "effect": {
+        "health": 35,
+        "rads": 10
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "0004a152"
+    },
+    {
+        "qty": 1,
+        "id": "00046941"
+    }]
+},
+{
+    "id": "0021c00c",
+    "name": "Mirelurk queen steak",
+    "effect": {
+        "health": 200,
+        "endurance": 2
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0020d3de"
+    }]
+},
+{
+    "id": "001a6397",
+    "name": "Moldy food",
+    "effect": {
+        "health": 5,
+        "rads": 6
+    },
+    "weight": 0.5
+},
+{
+    "id": "00046943",
+    "name": "Mole rat chunks",
+    "effect": {
+        "health": 50,
+        "max_ap": 5
+    },
+    "weight": 0.5,
+    "components": [{
+        "qty": 1,
+        "id": "00033101"
+    }]
+},
+{
+    "id": "00033101",
+    "name": "Mole rat meat",
+    "effect": {
+        "health": 25,
+        "rads": 7
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "00046943"
+    }]
+},
+{
+    "id": "000330fb",
+    "name": "Mongrel dog meat",
+    "effect": {
+        "health": 20,
+        "rads": 8
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "00046940"
+    }]
+},
+{
+    "id": "0021188e",
+    "name": "Mutant hound chops",
+    "effect": {
+        "health": 60,
+        "rads": -50
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00146156"
+    }]
+},
+{
+    "id": "00146156",
+    "name": "Mutant hound meat",
+    "effect": {
+        "health": 30,
+        "rads": 8
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "0021188e"
+    }]
+},
+{
+    "id": "000e34e9",
+    "name": "Mutated fern flower",
+    "effect": {
+        "health": 10,
+        "rads": 1
+    },
+    "weight": 0.1
+},
+{
+    "id": "00033102",
+    "name": "Mutfruit",
+    "effect": {
+        "health": 10,
+        "rads": 2
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 3,
+        "id": "000657fe"
+    },
+    {
+        "qty": 1,
+        "id": "00101295"
+    },
+    {
+        "qty": 2,
+        "id": "001b5cc4"
+    }]
+},
+{
+    "id": "00046940",
+    "name": "Mutt chops",
+    "effect": {
+        "health": 40
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000330fb"
+    }]
+},
+{
+    "id": "00017c73",
+    "name": "Noodle cup",
+    "effect": {
+        "health": 40
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 1,
+        "id": "000e0043"
+    }]
+},
+{
+    "id": "001a6396",
+    "name": "Perfectly preserved pie",
+    "effect": {
+        "health": 30
+    },
+    "weight": 0.5
+},
+{
+    "id": "000330f0",
+    "name": "Pork n' Beans",
+    "effect": {
+        "health": 20,
+        "rads": 6
+    },
+    "weight": 0.5
+},
+{
+    "id": "000330f1",
+    "name": "Potato Crisps",
+    "effect": {
+        "health": 10,
+        "rads": 7
+    },
+    "weight": 0.1
+},
+{
+    "id": "0016d8c8",
+    "name": "Potted meat",
+    "effect": {
+        "health": 40,
+        "rads": 12
+    },
+    "weight": 1
+},
+{
+    "id": "000e377a",
+    "name": "Preserved InstaMash",
+    "effect": {
+        "health": 45
+    },
+    "weight": 0.5
+},
+{
+    "id": "00134c68",
+    "name": "Pristine deathclaw egg",
+    "effect": {
+        "health": 45,
+        "rads": 7
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "001b5cc4"
+    },
+    {
+        "qty": 1,
+        "id": "001a71e7"
+    },
+    {
+        "qty": 1,
+        "id": "0004693c"
+    }]
+},
+{
+    "id": "0020d3de",
+    "name": "Queen mirelurk meat",
+    "effect": {
+        "health": 100,
+        "endurance": 1,
+        "rads": 25
+    },
+    "weight": 0.5,
+    "used_in": [{
+        "qty": 1,
+        "id": "0021c00c"
+    }]
 }]

@@ -2,4 +2,6 @@
 ---
 $ ->
   $('.sublist').prev().click ->
-    $(@).next().slideToggle()
+    list = $(this)
+    list.next().slideToggle()
+    $('.expand', list).toggleClass('flipped')
