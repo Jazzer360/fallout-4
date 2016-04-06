@@ -272,7 +272,7 @@
     "name": "Deathclaw egg omelette",
     "effect": {
         "health": 115,
-        "regen_health": "small"
+        "regen_health": "2h"
     },
     "weight": 0.1,
     "components": [
@@ -318,7 +318,7 @@
     "name": "Deathclaw Wellingham",
     "effect": {
         "health": 115,
-        "regen_health": "small"
+        "regen_health": "2h"
     },
     "weight": 0.1,
     "components": [
@@ -887,5 +887,49 @@
     "used_in": [{
         "qty": 1,
         "id": "0021c00c"
+    }]
+},
+{
+    "id": "00033106",
+    "name": "Radroach meat",
+    "effect": {
+        "health": 15,
+        "rads": 11
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 3,
+        "id": "0019797d"
+    }]
+},
+{
+    "id": "0004693b",
+    "name": "Radscorpion egg",
+    "effect": {
+        "health": 35,
+        "rads": 11
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "0004693d"
+    }]
+},
+{
+    "id": "0004693d",
+    "name": "Radscorpion egg omelette",
+    "effect": {
+        "health": 75,
+        "cure_addictions": "1"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0004693b"
+    },
+    {
+        "qty": 1,
+        "id": "000366c0"
     }]
 }]
