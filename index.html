@@ -4,38 +4,47 @@ js: scripts/listcollapse.js
 ---
 
 {% assign items = site.data.items | sort:"name" %}
+{% capture filter_button %}
+<button class="toggle-filter pull-right">Filters</button>
+{% endcapture %}
 
 <div class="content-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-sm-6 col-xs-12">
+        {{ filter_button }}
         <h4>Crafted items</h4>
+        {% include filter.html %}
         <ul class="list-group">
           {% for item in items %}
             {% if item.components %}
-              {% include list-item.html item=item type='crafted' %}
+              {% include list-item.html type='crafted' %}
             {% endif %}
           {% endfor %}
         </ul>
       </div>
     
       <div class="col-lg-4 col-sm-6 col-xs-12">
+        {{ filter_button }}
         <h4>Items used in crafting</h4>
+        {% include filter.html %}
         <ul class="list-group">
           {% for item in items %}
             {% if item.used_in %}
-              {% include list-item.html item=item type='reagent' %}
+              {% include list-item.html type='reagent' %}
             {% endif %}
           {% endfor %}
       </div>
     
       <div class="col-lg-4 col-sm-6 col-xs-12">
+        {{ filter_button }}
         <h4>Items not used in crafting</h4>
+        {% include filter.html %}
         <ul class="list-group">
           {% for item in items %}
             {% unless item.components or item.used_in %}
               {% if item.effect %}
-                {% include list-item.html item=item type='aid' %}
+                {% include list-item.html type='aid' %}
               {% endif %}
             {% endunless %}
           {% endfor %}

@@ -1,0 +1,9 @@
+{% assign filters = "food drinks chems ammo" | split: " " %}
+
+<div class="filters">
+  {% for _filter in filters %}
+  <div class="filter-container">
+    <input class="filter" type='checkbox' name='{{ _filter }}' checked /><span class="filter-label"> {{ _filter | capitalize }}</span>
+  </div>
+  {% endfor %}
+</div>

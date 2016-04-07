@@ -1,3 +1,5 @@
+// Site Header
+
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
@@ -17,6 +19,8 @@
   }
 }
 
+// Site Footer
+
 .site-footer {
   border-top: 1px solid $grey-color-light;
   font-size: 15px;
@@ -30,6 +34,16 @@
   margin-left: 0;
   padding: 0px;
 }
+
+// Content Wrapper
+
+.content-wrapper {
+  background-color: #F6F6F6;
+  box-shadow: inset 0 -8px 12px -10px black, inset 0 8px 12px -10px black;
+  padding: 20px 0;
+}
+
+// Item list
 
 .sublist {
   display: none;
@@ -92,11 +106,6 @@
   font-weight: bold;
 }
 
-.content-wrapper {
-  background-color: #F6F6F6;
-  box-shadow: inset 0 -8px 12px -10px black, inset 0 8px 12px -10px black;
-  padding: 20px 0;
-}
 
 .aid {
   .expand {
@@ -130,4 +139,29 @@
 .cure_addictions {
   color: transparent;
   margin-left: -6px;
+}
+
+// Filters
+
+.toggle-filter {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.filter-label {
+  position: relative;
+  top: -2px;
+}
+
+.filters {
+  margin: 0 4px;
+  display: none;
+  white-space: nowrap;
+}
+
+.filter-container {
+  white-space: normal;
+  display: inline-block;
+  width: 25%;
 }

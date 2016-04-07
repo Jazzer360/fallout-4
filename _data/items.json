@@ -1,6 +1,7 @@
 [{
     "id": "001f24b6",
     "name": "Ash blossom",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -10,6 +11,7 @@
 {
     "id": "0004a151",
     "name": "Baked bloatfly",
+    "filters": ["food"],
     "effect": {
         "health": 40,
         "rad_resist": 20
@@ -24,6 +26,7 @@
 {
     "id": "0002fbe4",
     "name": "Blamco Brand Mac and Cheese",
+    "filters": ["food"],
     "effect": {
         "health": 20,
         "rads": 6
@@ -33,6 +36,7 @@
 {
     "id": "000330f4",
     "name": "Bloatfly meat",
+    "filters": ["food"],
     "effect": {
         "health": 5,
         "rads": 6
@@ -47,6 +51,7 @@
 {
     "id": "00074d0d",
     "name": "Bloodbug meat",
+    "filters": ["food"],
     "effect": {
         "health": 45,
         "rads": 9
@@ -61,6 +66,7 @@
 {
     "id": "0004693f",
     "name": "Bloodbug steak",
+    "filters": ["food"],
     "effect": {
         "health": 105,
         "max_health": 15
@@ -75,6 +81,7 @@
 {
     "id": "001c25ee",
     "name": "Bloodleaf",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -97,6 +104,7 @@
 {
     "id": "0004a13f",
     "name": "Brahmin meat",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 8
@@ -110,6 +118,7 @@
 {
     "id": "001c0fc2",
     "name": "Brain fungus",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -123,6 +132,7 @@
 {
     "id": "000330f6",
     "name": "Bubblegum",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 1
@@ -132,6 +142,7 @@
 {
     "id": "000bea58",
     "name": "Canned dog food",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -141,6 +152,7 @@
 {
     "id": "000f742e",
     "name": "Carrot",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -175,6 +187,7 @@
 {
     "id": "001c4013",
     "name": "Carrot flower",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -184,6 +197,7 @@
 {
     "id": "000939b8",
     "name": "Cat meat",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 8
@@ -193,6 +207,7 @@
 {
     "id": "00046942",
     "name": "Cooked softshell meat",
+    "filters": ["food"],
     "effect": {
         "health": 85,
         "max_ap": 15
@@ -207,6 +222,7 @@
 {
     "id": "000330f8",
     "name": "Corn",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -221,6 +237,7 @@
 {
     "id": "000330ee",
     "name": "Cram",
+    "filters": ["food"],
     "effect": {
         "health": 25,
         "rads": 5
@@ -230,6 +247,7 @@
 {
     "id": "000330fa",
     "name": "Crispy squirrel bits",
+    "filters": ["food"],
     "effect": {
         "health": 35
     },
@@ -243,6 +261,7 @@
 {
     "id": "0002fbf7",
     "name": "Dandy Boy Apples",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -252,6 +271,7 @@
 {
     "id": "00046939",
     "name": "Deathclaw egg",
+    "filters": ["food"],
     "effect": {
         "health": 45,
         "rads": 7
@@ -274,6 +294,7 @@
 {
     "id": "0004693c",
     "name": "Deathclaw egg omelette",
+    "filters": ["food"],
     "effect": {
         "health": 115,
         "regen_health": "2h"
@@ -292,6 +313,7 @@
 {
     "id": "00074d0e",
     "name": "Deathclaw meat",
+    "filters": ["food"],
     "effect": {
         "health": 90,
         "rads": 6
@@ -306,6 +328,7 @@
 {
     "id": "00101293",
     "name": "Deathclaw steak",
+    "filters": ["food"],
     "effect": {
         "health": 185,
         "agility": 1
@@ -320,6 +343,7 @@
 {
     "id": "001a71e7",
     "name": "Deathclaw Wellingham",
+    "filters": ["food"],
     "effect": {
         "health": 115,
         "regen_health": "2h"
@@ -342,6 +366,7 @@
 {
     "id": "001ee1ff",
     "name": "Experimental plant",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 5
@@ -351,6 +376,7 @@
 {
     "id": "000330b4",
     "name": "Fancy Lads Snack Cakes",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 4
@@ -360,6 +386,7 @@
 {
     "id": "00047648",
     "name": "Food paste",
+    "filters": ["food"],
     "effect": {
         "health": 50,
         "endurance": 1
@@ -369,6 +396,7 @@
 {
     "id": "001994aa",
     "name": "Fresh carrot",
+    "filters": ["food"],
     "effect": {
         "health": 20
     },
@@ -377,6 +405,7 @@
 {
     "id": "001994a9",
     "name": "Fresh corn",
+    "filters": ["food"],
     "effect": {
         "health": 20
     },
@@ -385,6 +414,7 @@
 {
     "id": "001994ab",
     "name": "Fresh melon",
+    "filters": ["food"],
     "effect": {
         "health": 20
     },
@@ -393,6 +423,7 @@
 {
     "id": "001847b6",
     "name": "Fresh mutfruit",
+    "filters": ["food"],
     "effect": {
         "health": 20
     },
@@ -401,6 +432,7 @@
 {
     "id": "001c0fc3",
     "name": "Glowing fungus",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -415,6 +447,7 @@
 {
     "id": "000ef24d",
     "name": "Gourd",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -429,6 +462,7 @@
 {
     "id": "001c4011",
     "name": "Gourd blossom",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -438,6 +472,7 @@
 {
     "id": "0019797d",
     "name": "Grilled radroach",
+    "filters": ["food"],
     "effect": {
         "health": 30
     },
@@ -451,6 +486,7 @@
 {
     "id": "00046952",
     "name": "Grilled radstag",
+    "filters": ["food"],
     "effect": {
         "health": 120,
         "carry_weight": 25
@@ -465,6 +501,7 @@
 {
     "id": "000330fc",
     "name": "Gum drops",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 1
@@ -474,6 +511,7 @@
 {
     "id": "001d33d2",
     "name": "Happy Birthday sweet roll",
+    "filters": ["food"],
     "effect": {
         "health": 20,
         "rads": 4
@@ -483,6 +521,7 @@
 {
     "id": "001c3fdc",
     "name": "Hubflower",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -501,6 +540,7 @@
 {
     "id": "000330fd",
     "name": "Iguana bits",
+    "filters": ["food"],
     "effect": {
         "health": 15,
         "rads": 5
@@ -518,6 +558,7 @@
 {
     "id": "000330fe",
     "name": "Iguana on a stick",
+    "filters": ["food"],
     "effect": {
         "health": 40
     },
@@ -535,6 +576,7 @@
 {
     "id": "00102157",
     "name": "Iguana soup",
+    "filters": ["food"],
     "effect": {
         "health": 95
     },
@@ -556,6 +598,7 @@
 {
     "id": "000366b9",
     "name": "InstaMash",
+    "filters": ["food"],
     "effect": {
         "health": 20,
         "rads": 7
@@ -565,6 +608,7 @@
 {
     "id": "0021681e",
     "name": "Institute food packet",
+    "filters": ["food"],
     "effect": {
         "health": 25
     },
@@ -573,6 +617,7 @@
 {
     "id": "000fafeb",
     "name": "Melon",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -582,6 +627,7 @@
 {
     "id": "001c4010",
     "name": "Melon blossom",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -591,6 +637,7 @@
 {
     "id": "0004a152",
     "name": "Mirelurk cake",
+    "filters": ["food"],
     "effect": {
         "health": 140,
         "underwater_breathing": "30m"
@@ -617,6 +664,7 @@
 {
     "id": "0023e9d4",
     "name": "Mirelurk egg",
+    "filters": ["food"],
     "effect": {
         "health": 9,
         "rads": 12
@@ -638,6 +686,7 @@
 {
     "id": "0004693e",
     "name": "Mirelurk egg omelette",
+    "filters": ["food"],
     "effect": {
         "health": 45,
         "ap": 50
@@ -656,6 +705,7 @@
 {
     "id": "000330ff",
     "name": "Mirelurk meat",
+    "filters": ["food"],
     "effect": {
         "health": 35,
         "rads": 10
@@ -673,6 +723,7 @@
 {
     "id": "0021c00c",
     "name": "Mirelurk queen steak",
+    "filters": ["food"],
     "effect": {
         "health": 200,
         "endurance": 2
@@ -687,6 +738,7 @@
 {
     "id": "001a6397",
     "name": "Moldy food",
+    "filters": ["food"],
     "effect": {
         "health": 5,
         "rads": 6
@@ -696,6 +748,7 @@
 {
     "id": "00046943",
     "name": "Mole rat chunks",
+    "filters": ["food"],
     "effect": {
         "health": 50,
         "max_ap": 5
@@ -709,6 +762,7 @@
 {
     "id": "00033101",
     "name": "Mole rat meat",
+    "filters": ["food"],
     "effect": {
         "health": 25,
         "rads": 7
@@ -722,6 +776,7 @@
 {
     "id": "000330fb",
     "name": "Mongrel dog meat",
+    "filters": ["food"],
     "effect": {
         "health": 20,
         "rads": 8
@@ -735,6 +790,7 @@
 {
     "id": "0021188e",
     "name": "Mutant hound chops",
+    "filters": ["food"],
     "effect": {
         "health": 60,
         "rads": -50
@@ -749,6 +805,7 @@
 {
     "id": "00146156",
     "name": "Mutant hound meat",
+    "filters": ["food"],
     "effect": {
         "health": 30,
         "rads": 8
@@ -762,6 +819,7 @@
 {
     "id": "000e34e9",
     "name": "Mutated fern flower",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 1
@@ -771,6 +829,7 @@
 {
     "id": "00033102",
     "name": "Mutfruit",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -792,6 +851,7 @@
 {
     "id": "00046940",
     "name": "Mutt chops",
+    "filters": ["food"],
     "effect": {
         "health": 40
     },
@@ -805,6 +865,7 @@
 {
     "id": "00017c73",
     "name": "Noodle cup",
+    "filters": ["food"],
     "effect": {
         "health": 40
     },
@@ -822,6 +883,7 @@
 {
     "id": "001a6396",
     "name": "Perfectly preserved pie",
+    "filters": ["food"],
     "effect": {
         "health": 30
     },
@@ -830,6 +892,7 @@
 {
     "id": "000330f0",
     "name": "Pork n' Beans",
+    "filters": ["food"],
     "effect": {
         "health": 20,
         "rads": 6
@@ -839,6 +902,7 @@
 {
     "id": "000330f1",
     "name": "Potato Crisps",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 7
@@ -848,6 +912,7 @@
 {
     "id": "0016d8c8",
     "name": "Potted meat",
+    "filters": ["food"],
     "effect": {
         "health": 40,
         "rads": 12
@@ -857,6 +922,7 @@
 {
     "id": "000e377a",
     "name": "Preserved InstaMash",
+    "filters": ["food"],
     "effect": {
         "health": 45
     },
@@ -865,6 +931,7 @@
 {
     "id": "0020d3de",
     "name": "Queen mirelurk meat",
+    "filters": ["food"],
     "effect": {
         "health": 100,
         "endurance": 1,
@@ -879,6 +946,7 @@
 {
     "id": "00033106",
     "name": "Radroach meat",
+    "filters": ["food"],
     "effect": {
         "health": 15,
         "rads": 11
@@ -892,6 +960,7 @@
 {
     "id": "0004693b",
     "name": "Radscorpion egg",
+    "filters": ["food"],
     "effect": {
         "health": 35,
         "rads": 11
@@ -905,6 +974,7 @@
 {
     "id": "0004693d",
     "name": "Radscorpion egg omelette",
+    "filters": ["food"],
     "effect": {
         "health": 75,
         "cure_addictions": "1"
@@ -923,6 +993,7 @@
 {
     "id": "00074d10",
     "name": "Radscorpion meat",
+    "filters": ["food"],
     "effect": {
         "health": 75,
         "rads": 13
@@ -936,6 +1007,7 @@
 {
     "id": "00046950",
     "name": "Radscorpion steak",
+    "filters": ["food"],
     "effect": {
         "health": 150,
         "energy_resist": 25
@@ -950,6 +1022,7 @@
 {
     "id": "0004a14f",
     "name": "Radstag meat",
+    "filters": ["food"],
     "effect": {
         "health": 60,
         "rads": 13
@@ -967,6 +1040,7 @@
 {
     "id": "0004696a",
     "name": "Radstag stew",
+    "filters": ["food"],
     "effect": {
         "health": 150,
         "energy_resist": 30
@@ -993,6 +1067,7 @@
 {
     "id": "000e0043",
     "name": "Razorgrain",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -1014,6 +1089,7 @@
 {
     "id": "0004695a",
     "name": "Ribeye steak",
+    "filters": ["food"],
     "effect": {
         "health": 110
     },
@@ -1027,6 +1103,7 @@
 {
     "id": "00046941",
     "name": "Roasted mirelurk meat",
+    "filters": ["food"],
     "effect": {
         "health": 70,
         "max_ap": 10
@@ -1041,6 +1118,7 @@
 {
     "id": "000366ba",
     "name": "Salisbury Steak",
+    "filters": ["food"],
     "effect": {
         "health": 30,
         "rads": 9
@@ -1050,6 +1128,7 @@
 {
     "id": "001be2ab",
     "name": "Silt bean",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -1063,6 +1142,7 @@
 {
     "id": "0006352f",
     "name": "Slocum's Buzzbites",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "ap": 25,
@@ -1094,6 +1174,7 @@
 {
     "id": "00033100",
     "name": "Softshell mirelurk meat",
+    "filters": ["food"],
     "effect": {
         "health": 40,
         "rads": 15
@@ -1107,6 +1188,7 @@
 {
     "id": "000366bc",
     "name": "Squirrel bits",
+    "filters": ["food"],
     "effect": {
         "health": 15,
         "rads": 5
@@ -1128,6 +1210,7 @@
 {
     "id": "000366bb",
     "name": "Squirrel on a stick",
+    "filters": ["food"],
     "effect": {
         "health": 45
     },
@@ -1145,6 +1228,7 @@
 {
     "id": "00036927",
     "name": "Squirrel stew",
+    "filters": ["food"],
     "effect": {
         "health": 105,
         "xp": "+2%"
@@ -1175,6 +1259,7 @@
 {
     "id": "00046945",
     "name": "Stingwing filet",
+    "filters": ["food"],
     "effect": {
         "health": 130,
         "perception": 1
@@ -1189,6 +1274,7 @@
 {
     "id": "00074d0f",
     "name": "Stingwing meat",
+    "filters": ["food"],
     "effect": {
         "health": 65,
         "rads": 9
@@ -1202,6 +1288,7 @@
 {
     "id": "000330f2",
     "name": "Sugar Bombs",
+    "filters": ["food"],
     "effect": {
         "health": 15,
         "rads": 7
@@ -1211,6 +1298,7 @@
 {
     "id": "000366be",
     "name": "Sweet roll",
+    "filters": ["food"],
     "effect": {
         "health": 20,
         "rads": 4
@@ -1220,6 +1308,7 @@
 {
     "id": "0016ca4f",
     "name": "Synthetic gorilla meat",
+    "filters": ["food"],
     "effect": {
         "health": 30
     },
@@ -1228,6 +1317,7 @@
 {
     "id": "000d981d",
     "name": "Tarberry",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -1245,6 +1335,7 @@
 {
     "id": "001b5cc4",
     "name": "Tasty deathclaw omelette",
+    "filters": ["food"],
     "effect": {
         "health": 115,
         "max_health": 50
@@ -1275,6 +1366,7 @@
 {
     "id": "0009dcc4",
     "name": "Tato",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 5
@@ -1304,6 +1396,7 @@
 {
     "id": "001c400d",
     "name": "Tato flower",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 5
@@ -1313,6 +1406,7 @@
 {
     "id": "0009f24b",
     "name": "Thistle",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 5
@@ -1322,6 +1416,7 @@
 {
     "id": "0004a3b9",
     "name": "Vegetable soup",
+    "filters": ["food"],
     "effect": {
         "health": 55,
         "rad_resist": 25
@@ -1344,6 +1439,7 @@
 {
     "id": "001c4012",
     "name": "Wild corn",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 3
@@ -1353,6 +1449,7 @@
 {
     "id": "001c400e",
     "name": "Wild mutfruit",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -1362,6 +1459,7 @@
 {
     "id": "001c400f",
     "name": "Wild razorgrain",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -1371,6 +1469,7 @@
 {
     "id": "0006654f",
     "name": "Wild tarberry",
+    "filters": ["food"],
     "effect": {
         "health": 10,
         "rads": 2
@@ -1380,6 +1479,7 @@
 {
     "id": "00047660",
     "name": "Yao guai meat",
+    "filters": ["food"],
     "effect": {
         "health": 80,
         "rads": 6
@@ -1397,6 +1497,7 @@
 {
     "id": "00046955",
     "name": "Yao guai ribs",
+    "filters": ["food"],
     "effect": {
         "health": 165,
         "damage_resist": 15
@@ -1411,6 +1512,7 @@
 {
     "id": "0004696d",
     "name": "Yao guai roast",
+    "filters": ["food"],
     "effect": {
         "health": 210,
         "melee_damage": 10
@@ -1433,6 +1535,7 @@
 {
     "id": "000366bd",
     "name": "Yum Yum Deviled Eggs",
+    "filters": ["food"],
     "effect": {
         "health": 15,
         "rads": 5
@@ -1442,6 +1545,7 @@
 {
     "id": "0011ea93",
     "name": "Beer",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1452,6 +1556,7 @@
 {
     "id": "00052409",
     "name": "Blood pack",
+    "filters": ["drinks"],
     "effect": {
         "health": 50
     },
@@ -1480,6 +1585,7 @@
 {
     "id": "00050c28",
     "name": "Bobrov's best moonshine",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1491,6 +1597,7 @@
 {
     "id": "000366c4",
     "name": "Bourbon",
+    "filters": ["drinks"],
     "effect": {
         "endurance": 1,
         "strength": 1,
@@ -1505,6 +1612,7 @@
 {
     "id": "000e9284",
     "name": "Deezer's Lemonade",
+    "filters": ["drinks"],
     "effect": {
         "health": 50
     },
@@ -1513,6 +1621,7 @@
 {
     "id": "00101295",
     "name": "Dirty Wastelander",
+    "filters": ["drinks"],
     "effect": {
         "strength": 2,
         "charisma": 1,
@@ -1536,6 +1645,7 @@
 {
     "id": "000366bf",
     "name": "Dirty Water",
+    "filters": ["drinks"],
     "effect": {
         "health": 20,
         "rads": 7
@@ -1578,6 +1688,7 @@
 {
     "id": "000a4944",
     "name": "Drugged water",
+    "filters": ["drinks"],
     "effect": {
         "health": 20,
         "perception": -1,
@@ -1588,6 +1699,7 @@
 {
     "id": "00058ab4",
     "name": "Glowing blood pack",
+    "filters": ["drinks"],
     "effect": {
         "health": "40%",
         "rad_resist": 75
@@ -1610,6 +1722,7 @@
 {
     "id": "000f932c",
     "name": "Gwinnett ale",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1620,6 +1733,7 @@
 {
     "id": "000f932d",
     "name": "Gwinnett brew",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1630,6 +1744,7 @@
 {
     "id": "000f932b",
     "name": "Gwinnett lager",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1640,6 +1755,7 @@
 {
     "id": "000f9329",
     "name": "Gwinnett pale",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1650,6 +1766,7 @@
 {
     "id": "000f932a",
     "name": "Gwinnett pilsner",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1660,6 +1777,7 @@
 {
     "id": "00022792",
     "name": "Gwinnett stout",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1670,6 +1788,7 @@
 {
     "id": "00178b1d",
     "name": "Ice cold beer",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1681,6 +1800,7 @@
 {
     "id": "00178b17",
     "name": "Ice cold Gwinnett ale",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1692,6 +1812,7 @@
 {
     "id": "00178b18",
     "name": "Ice cold Gwinnett brew",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1703,6 +1824,7 @@
 {
     "id": "00178b19",
     "name": "Ice cold Gwinnett lager",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1714,6 +1836,7 @@
 {
     "id": "00178b1a",
     "name": "Ice cold Gwinnett pale",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1725,6 +1848,7 @@
 {
     "id": "00178b1b",
     "name": "Ice cold Gwinnett pilsner",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1736,6 +1860,7 @@
 {
     "id": "00178b1c",
     "name": "Ice cold Gwinnett stout",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "charisma": 1,
@@ -1747,6 +1872,7 @@
 {
     "id": "00178b24",
     "name": "Ice cold Nuka Cherry",
+    "filters": ["drinks"],
     "effect": {
         "health": 75,
         "ap": 35,
@@ -1757,6 +1883,7 @@
 {
     "id": "00178b23",
     "name": "Ice cold Nuka Cola",
+    "filters": ["drinks"],
     "effect": {
         "health": 45,
         "ap": 20,
@@ -1767,6 +1894,7 @@
 {
     "id": "00178b25",
     "name": "Ice cold Nuka Cola Quantum",
+    "filters": ["drinks"],
     "effect": {
         "health": 650,
         "ap": 125,
@@ -1777,6 +1905,7 @@
 {
     "id": "0021681d",
     "name": "Institute bottled water",
+    "filters": ["drinks"],
     "effect": {
         "health": 40
     },
@@ -1785,6 +1914,7 @@
 {
     "id": "000e2f68",
     "name": "Irradiated blood",
+    "filters": ["drinks"],
     "effect": {
         "health": 50,
         "rads": 20
@@ -1798,6 +1928,7 @@
 {
     "id": "00048360",
     "name": "Nuka Cherry",
+    "filters": ["drinks"],
     "effect": {
         "health": 50,
         "ap": 25,
@@ -1808,6 +1939,7 @@
 {
     "id": "0004835d",
     "name": "Nuka Cola",
+    "filters": ["drinks"],
     "effect": {
         "health": 20,
         "ap": 10,
@@ -1830,6 +1962,7 @@
 {
     "id": "0004835f",
     "name": "Nuka Cola Quantum",
+    "filters": ["drinks"],
     "effect": {
         "health": 400,
         "ap": 100,
@@ -1840,6 +1973,7 @@
 {
     "id": "001ad736",
     "name": "Poisoned wine",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "intelligence": -1,
@@ -1850,6 +1984,7 @@
 {
     "id": "000366c0",
     "name": "Purified water",
+    "filters": ["drinks"],
     "effect": {
         "health": 40
     },
@@ -1883,6 +2018,7 @@
 {
     "id": "00058ab8",
     "name": "Refreshing beverage",
+    "filters": ["drinks"],
     "effect": {
         "health": 500,
         "rads": -1000,
@@ -1914,6 +2050,7 @@
 {
     "id": "00145857",
     "name": "Rum",
+    "filters": ["drinks"],
     "effect": {
         "agility": 1,
         "strength": 1,
@@ -1924,6 +2061,7 @@
 {
     "id": "000366c3",
     "name": "Vodka",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "intelligence": -1,
@@ -1938,6 +2076,7 @@
 {
     "id": "000366c1",
     "name": "Whiskey",
+    "filters": ["drinks"],
     "effect": {
         "strength": 2,
         "intelligence": -1
@@ -1955,6 +2094,7 @@
 {
     "id": "000366c2",
     "name": "Wine",
+    "filters": ["drinks"],
     "effect": {
         "strength": 1,
         "intelligence": -1,
@@ -1965,6 +2105,7 @@
 {
     "id": "000459c5",
     "name": "Addictol",
+    "filters": ["chems"],
     "effect": {
         "cure_addictions": 1
     },
@@ -1973,6 +2114,7 @@
 {
     "id": "000518bb",
     "name": "Berry Mentats",
+    "filters": ["chems"],
     "effect": {
         "infra_vision": "8m Infra-vision",
         "intelligence": 5
@@ -1995,6 +2137,7 @@
 {
     "id": "00058aa3",
     "name": "Buffjet",
+    "filters": ["chems"],
     "effect": {
         "slow_time": "15s",
         "strength": 3,
@@ -2016,6 +2159,7 @@
 {
     "id": "00033778",
     "name": "Buffout",
+    "filters": ["chems"],
     "effect": {
         "strength": 2,
         "endurance": 2,
@@ -2042,6 +2186,7 @@
 {
     "id": "00058aa5",
     "name": "Bufftats",
+    "filters": ["chems"],
     "effect": {
         "strength": 3,
         "endurance": 3,
@@ -2062,6 +2207,7 @@
 {
     "id": "00058aa7",
     "name": "Calmex",
+    "filters": ["chems"],
     "effect": {
         "sneak_damage": "2x Sneak Dmg",
         "perception": 3,
@@ -2072,6 +2218,7 @@
 {
     "id": "00156d0b",
     "name": "Daddy-O",
+    "filters": ["chems"],
     "effect": {
         "intelligence": 3,
         "perception": 3,
@@ -2082,6 +2229,7 @@
 {
     "id": "00150729",
     "name": "Day Tripper",
+    "filters": ["chems"],
     "effect": {
         "luck": 3,
         "charisma": 3,
@@ -2092,6 +2240,7 @@
 {
     "id": "000628ca",
     "name": "Fury",
+    "filters": ["chems"],
     "effect": {
         "melee_damage": "+50%",
         "damage_resist": 25,
@@ -2111,6 +2260,7 @@
 {
     "id": "0010129a",
     "name": "Grape Mentats",
+    "filters": ["chems"],
     "effect": {
         "barter": "10% Barter",
         "charisma": 8
@@ -2133,6 +2283,7 @@
 {
     "id": "000366c5",
     "name": "Jet",
+    "filters": ["chems"],
     "effect": {
         "slow_time": "10s"
     },
@@ -2167,6 +2318,7 @@
 {
     "id": "000518d0",
     "name": "Jet Fuel",
+    "filters": ["chems"],
     "effect": {
         "regen_ap": "AP Regen",
         "max_ap": 35
@@ -2185,6 +2337,7 @@
 {
     "id": "00033779",
     "name": "Med-X",
+    "filters": ["chems"],
     "effect": {
         "damage_resist": 25
     },
@@ -2197,6 +2350,7 @@
 {
     "id": "0003377b",
     "name": "Mentats",
+    "filters": ["chems"],
     "effect": {
         "intelligence": 2,
         "perception": 2
@@ -2240,6 +2394,7 @@
 {
     "id": "000ec4f7",
     "name": "Mysterious serum",
+    "filters": ["chems"],
     "effect": {
         "damage_resist": 50,
         "strength": 5,
@@ -2250,6 +2405,7 @@
 {
     "id": "000518c5",
     "name": "Orange Mentats",
+    "filters": ["chems"],
     "effect": {
         "vats_accuracy": "10% VATS Acc",
         "perception": 8
@@ -2272,6 +2428,7 @@
 {
     "id": "00058aad",
     "name": "Overdrive",
+    "filters": ["chems"],
     "effect": {
         "crit": "25% Crit",
         "damage": "25%"
@@ -2294,6 +2451,7 @@
 {
     "id": "0003377d",
     "name": "Psycho",
+    "filters": ["chems"],
     "effect": {
         "damage": "25%",
         "damage_resist": 25
@@ -2341,6 +2499,7 @@
 {
     "id": "00058aa8",
     "name": "Psycho jet",
+    "filters": ["chems"],
     "effect": {
         "slow_time": "15s",
         "damage": "25%",
@@ -2361,6 +2520,7 @@
 {
     "id": "00058aac",
     "name": "Psychobuff",
+    "filters": ["chems"],
     "effect": {
         "damage": "25%",
         "strength": 3,
@@ -2381,6 +2541,7 @@
 {
     "id": "00058aaa",
     "name": "Psychotats",
+    "filters": ["chems"],
     "effect": {
         "damage": "25%",
         "damage_resist": 15,
@@ -2400,6 +2561,7 @@
 {
     "id": "00024057",
     "name": "Rad-X",
+    "filters": ["chems"],
     "effect": {
         "rad_resist": 100
     },
@@ -2408,6 +2570,7 @@
 {
     "id": "00023742",
     "name": "RadAway",
+    "filters": ["chems"],
     "effect": {
         "rads": -300
     },
@@ -2438,6 +2601,7 @@
 {
     "id": "00058abc",
     "name": "Skeeto Spit",
+    "filters": ["chems"],
     "effect": {
         "max_health": 25
     },
@@ -2463,6 +2627,7 @@
 {
     "id": "00023736",
     "name": "Stimpak",
+    "filters": ["chems"],
     "effect": {
         "health": "30%"
     },
@@ -2493,6 +2658,7 @@
 {
     "id": "00101299",
     "name": "Ultra jet",
+    "filters": ["chems"],
     "effect": {
         "slow_time": "15s",
         "max_ap": 100
@@ -2519,6 +2685,7 @@
 {
     "id": "00055f10",
     "name": "Vault 81 cure",
+    "filters": ["chems"],
     "effect": {
         "health": "50%"
     },
@@ -2527,6 +2694,7 @@
 {
     "id": "0007238f",
     "name": "X-111 compound",
+    "filters": ["chems"],
     "effect": {
         "rads": -700
     },
@@ -2535,6 +2703,7 @@
 {
     "id": "001506f4",
     "name": "X-cell",
+    "filters": ["chems"],
     "effect": {
         "strength": 2,
         "perception": 2,
