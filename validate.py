@@ -28,6 +28,9 @@ for item in items.itervalues():
                 error = "{}\n\tNo item with id: {}"
                 print error.format(item.name, component.id)
                 continue
+            if not 'used_in' in items[component.id]:
+                print "warn" + item.name
+                continue
             for whereused in items[component.id].used_in:
                 if whereused.id == item.id:
                     break

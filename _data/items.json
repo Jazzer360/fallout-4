@@ -1966,7 +1966,7 @@
     "id": "000518bb",
     "name": "Berry Mentats",
     "effect": {
-        "infra_vision": "8m",
+        "infra_vision": "8m Infra-vision",
         "intelligence": 5
     },
     "weight": 0.1,
@@ -2055,7 +2055,7 @@
     "id": "00058aa7",
     "name": "Calmex",
     "effect": {
-        "sneak_damage": "2x",
+        "sneak_damage": "2x Sneak Dmg",
         "perception": 3,
         "agility": 3
     },
@@ -2104,7 +2104,7 @@
     "id": "0010129a",
     "name": "Grape Mentats",
     "effect": {
-        "barter": "10%",
+        "barter": "10% Barter",
         "charisma": 8
     },
     "weight": 0.1,
@@ -2123,6 +2123,92 @@
     }]
 },
 {
+    "id": "000366c5",
+    "name": "Jet",
+    "effect": {
+        "slow_time": "10s"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "001bf730"
+    },
+    {
+        "qty": 1,
+        "id": "0006907f"
+    }],
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "00058aa3"
+    },
+    {
+        "qty": 1,
+        "id": "000518d0"
+    },
+    {
+        "qty": 1,
+        "id": "00058aa8"
+    },
+    {
+        "qty": 1,
+        "id": "00101299"
+    }]
+},
+{
+    "id": "000518d0",
+    "name": "Jet Fuel",
+    "effect": {
+        "regen_ap": "AP Regen",
+        "max_ap": 35
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 5,
+        "id": "000cac78"
+    },
+    {
+        "qty": 1,
+        "id": "000366c5"
+    }]
+},
+{
+    "id": "00033779",
+    "name": "Med-X",
+    "effect": {
+        "damage_resist": 25
+    },
+    "weight": 0.1,
+    "used_in": [{
+        "qty": 1,
+        "id": "00058af2"
+    }]
+},
+{
+    "id": "0003377b",
+    "name": "Mentats",
+    "effect": {
+        "intelligence": 2,
+        "perception": 2
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00059a71"
+    },
+    {
+        "qty": 2,
+        "id": "001c0fc2"
+    },
+    {
+        "qty": 1,
+        "id": "000aec63"
+    }]
+},
+{
     "id": "000ec4f7",
     "name": "Mysterious serum",
     "effect": {
@@ -2131,4 +2217,110 @@
         "rads": "-10/s"
     },
     "weight": 0.1
+},
+{
+    "id": "000518c5",
+    "name": "Orange Mentats",
+    "effect": {
+        "vats_accuracy": "10% VATS Acc",
+        "perception": 8
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000aec5c"
+    },
+    {
+        "qty": 3,
+        "id": "000f742e"
+    },
+    {
+        "qty": 1,
+        "id": "0003377b"
+    }]
+},
+{
+    "id": "00058aad",
+    "name": "Overdrive",
+    "effect": {
+        "crit": "25% Crit"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "001bf72d"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "0003377d"
+    }]
+},
+{
+    "id": "0003377d",
+    "name": "Psycho",
+    "effect": {
+        "damage": "25% Dmg",
+        "damage_resist": 25
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001bf72d"
+    },
+    {
+        "qty": 1,
+        "id": "0006907b"
+    },
+    {
+        "qty": 2,
+        "id": "001c3fdc"
+    },
+    {
+        "qty": 1,
+        "id": "00023736"
+    }],
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "00058aad"
+    },
+    {
+        "qty": 1,
+        "id": "00058aa8"
+    },
+    {
+        "qty": 1,
+        "id": "00058aac"
+    },
+    {
+        "qty": 1,
+        "id": "00058aea"
+    }]
+},
+{
+    "id": "00058aa8",
+    "name": "Psycho jet",
+    "effect": {
+        "slow_time": "15s",
+        "damage": "25% Dmg",
+        "damage_resist": 35,
+        "max_ap": 35
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000366c5"
+    },
+    {
+        "qty": 1,
+        "id": "0003377d"
+    }]
 }]
