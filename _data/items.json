@@ -166,6 +166,10 @@
     {
         "qty": 2,
         "id": "001b5cc4"
+    },
+    {
+        "qty": 3,
+        "id": "000518c5"
     }]
 },
 {
@@ -1870,6 +1874,10 @@
     {
         "qty": 2,
         "id": "00058ab8"
+    },
+    {
+        "qty": 1,
+        "id": "00023742"
     }]
 },
 {
@@ -2206,6 +2214,27 @@
     {
         "qty": 1,
         "id": "000aec63"
+    }],
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "00058aa5"
+    },
+    {
+        "qty": 1,
+        "id": "000518bb"
+    },
+    {
+        "qty": 1,
+        "id": "0010129a"
+    },
+    {
+        "qty": 1,
+        "id": "000518c5"
+    },
+    {
+        "qty": 1,
+        "id": "00058aaa"
     }]
 },
 {
@@ -2244,7 +2273,8 @@
     "id": "00058aad",
     "name": "Overdrive",
     "effect": {
-        "crit": "25% Crit"
+        "crit": "25% Crit",
+        "damage": "25%"
     },
     "weight": 0.1,
     "components": [
@@ -2265,7 +2295,7 @@
     "id": "0003377d",
     "name": "Psycho",
     "effect": {
-        "damage": "25% Dmg",
+        "damage": "25%",
         "damage_resist": 25
     },
     "weight": 0.1,
@@ -2302,6 +2332,10 @@
     {
         "qty": 1,
         "id": "00058aea"
+    },
+    {
+        "qty": 1,
+        "id": "00058aaa"
     }]
 },
 {
@@ -2309,7 +2343,7 @@
     "name": "Psycho jet",
     "effect": {
         "slow_time": "15s",
-        "damage": "25% Dmg",
+        "damage": "25%",
         "damage_resist": 35,
         "max_ap": 35
     },
@@ -2323,4 +2357,260 @@
         "qty": 1,
         "id": "0003377d"
     }]
+},
+{
+    "id": "00058aac",
+    "name": "Psychobuff",
+    "effect": {
+        "damage": "25%",
+        "strength": 3,
+        "endurance": 3,
+        "max_health": 65
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00033778"
+    },
+    {
+        "qty": 1,
+        "id": "0003377d"
+    }]
+},
+{
+    "id": "00058aaa",
+    "name": "Psychotats",
+    "effect": {
+        "damage": "25%",
+        "damage_resist": 15,
+        "perception": 3
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0003377d"
+    },
+    {
+        "qty": 1,
+        "id": "0003377b"
+    }]
+},
+{
+    "id": "00024057",
+    "name": "Rad-X",
+    "effect": {
+        "rad_resist": 100
+    },
+    "weight": 0.1
+},
+{
+    "id": "00023742",
+    "name": "RadAway",
+    "effect": {
+        "rads": -300
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "001bf72f"
+    },
+    {
+        "qty": 3,
+        "id": "001c0fc3"
+    },
+    {
+        "qty": 1,
+        "id": "0006907f"
+    },
+    {
+        "qty": 1,
+        "id": "000366c0"
+    }],
+    "used_in": [
+    {
+        "qty": 2,
+        "id": "00058ab8"
+    }]
+},
+{
+    "id": "00058abc",
+    "name": "Skeeto Spit",
+    "effect": {
+        "max_health": 25
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00028a63"
+    },
+    {
+        "qty": 1,
+        "id": "001c25ee"
+    },
+    {
+        "qty": 1,
+        "id": "00069085"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    }]
+},
+{
+    "id": "00023736",
+    "name": "Stimpak",
+    "effect": {
+        "health": "30%"
+    },
+    "weight": 0,
+    "components": [
+    {
+        "qty": 2,
+        "id": "001bf72f"
+    },
+    {
+        "qty": 1,
+        "id": "00052409"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    }],
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "0003377d"
+    },
+    {
+        "qty": 1,
+        "id": "00058ab8"
+    }]
+},
+{
+    "id": "00101299",
+    "name": "Ultra jet",
+    "effect": {
+        "slow_time": "15s",
+        "max_ap": 100
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001c25ee"
+    },
+    {
+        "qty": 1,
+        "id": "001bf730"
+    },
+    {
+        "qty": 1,
+        "id": "000366c5"
+    },
+    {
+        "qty": 2,
+        "id": "0006907f"
+    }]
+},
+{
+    "id": "00055f10",
+    "name": "Vault 81 cure",
+    "effect": {
+        "health": "50%"
+    },
+    "weight": 0.3
+},
+{
+    "id": "0007238f",
+    "name": "X-111 compound",
+    "effect": {
+        "rads": -700
+    },
+    "weight": 0.3
+},
+{
+    "id": "001506f4",
+    "name": "X-cell",
+    "effect": {
+        "strength": 2,
+        "perception": 2,
+        "endurance": 2,
+        "charisma": 2,
+        "intelligence": 2,
+        "agility": 2,
+        "luck": 2
+    },
+    "weight": 0.1
+},
+{
+    "id": "001bf72f",
+    "name": "Antiseptic (salvaged)"
+},
+{
+    "id": "000731a3",
+    "name": "Wood (salvaged)"
+},
+{
+    "id": "001bf72d",
+    "name": "Acid (salvaged)"
+},
+{
+    "id": "001bf730",
+    "name": "Fertilizer (salvaged)"
+},
+{
+    "id": "0006907f",
+    "name": "Plastic (salvaged)"
+},
+{
+    "id": "00059a71",
+    "name": "Abraxo cleaner (junk)"
+},
+{
+    "id": "000cac78",
+    "name": "Flamer fuel (ammo)"
+},
+{
+    "id": "00028a63",
+    "name": "Blood sac (junk)"
+},
+{
+    "id": "00069085",
+    "name": "Glass (salvaged)"
+},
+{
+    "id": "000731a4",
+    "name": "Steel (salvaged)"
+},
+{
+    "id": "00020194",
+    "name": "Coffee tin (junk)"
+},
+{
+    "id": "001bf732",
+    "name": "Oil (salvaged)"
+},
+{
+    "id": "0006907b",
+    "name": "Circuitry (salvaged)"
+},
+{
+    "id": "000aec63",
+    "name": "Lead (salvaged)"
+},
+{
+    "id": "00060e73",
+    "name": "Anti freeze bottle (junk)"
+},
+{
+    "id": "000aec5c",
+    "name": "Asbestos (salvaged)"
+},
+{
+    "id": "000657fe",
+    "name": "Vegetable starch (junk)"
 }]
