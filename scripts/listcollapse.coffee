@@ -3,16 +3,18 @@
 $ ->
 
   $.fn.hideItem = () ->
-    if this.is(':visible')
-      if this.next('.sublist').is(':visible')
-        this.toggleSublist()
-      this.slideToggle()
-    return this
+    this.each ->
+      item = $(this)
+      if item.is(':visible')
+        if item.next('.sublist').is(':visible')
+          item.toggleSublist()
+        item.slideToggle()
 
   $.fn.showItem = () ->
-    if this.is(':hidden')
-      this.slideToggle()
-    return this
+    this.each ->
+      item = $(this)
+      if item.is(':hidden')
+        item.slideToggle()
 
   $.fn.toggleSublist = () ->
     this.next('.sublist').slideToggle()
