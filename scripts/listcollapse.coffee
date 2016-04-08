@@ -1,10 +1,23 @@
 ---
 ---
 $ ->
-  toggleSublist = (element) ->
-    item = $(element)
-    item.next().slideToggle()
-    $('.expand', item).toggleClass('flipped')
+
+  $.fn.hideItem = () ->
+    if this.is(':visible')
+      if this.next('.sublist').is(':visible')
+        this.toggleSublist()
+      this.slideToggle()
+    return this
+
+  $.fn.showItem = () ->
+    if this.is(':hidden')
+      this.slideToggle()
+    return this
+
+  $.fn.toggleSublist = () ->
+    this.next('.sublist').slideToggle()
+    $('.expand', this).toggleClass('flipped')
+    return this
 
   saveFilters = ->
     cookieval = {}
@@ -21,8 +34,8 @@ $ ->
       if curstate != val
         filter.click()
 
-  $('.sublist').prev().click ->
-    toggleSublist(this)
+  $('.sublist').prev('.list-group-item').click ->
+    $(this).toggleSublist()
 
   $('.toggle-filter').click ->
     $(this).siblings('.filters').slideToggle()
@@ -31,9 +44,7 @@ $ ->
     items = $(this)
       .closest('.item-list')
       .find('.' + this.name)
-    items.next('.sublist:visible').prev().each ->
-      toggleSublist(this)
-    items.slideToggle()
+    if this.checked then items.showItem() else items.hideItem()
 
   loadFilters()
 
