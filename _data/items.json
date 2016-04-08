@@ -846,6 +846,10 @@
     {
         "qty": 2,
         "id": "001b5cc4"
+    },
+    {
+        "qty": 2,
+        "id": "00058af7"
     }]
 },
 {
@@ -1687,6 +1691,10 @@
     {
         "qty": 1,
         "id": "00058ae9"
+    },
+    {
+        "qty": 1,
+        "id": "00058af4"
     }]
 },
 {
@@ -2017,6 +2025,10 @@
     {
         "qty": 1,
         "id": "00023742"
+    },
+    {
+        "qty": 1,
+        "id": "00058af5"
     }]
 },
 {
@@ -2824,6 +2836,30 @@
     "name": "Fiber optics (salvaged)"
 },
 {
+    "id": "000aec61",
+    "name": "Fiberglass (salvaged)"
+},
+{
+    "id": "0002c59e",
+    "name": "Bloatfly gland (junk)"
+},
+{
+    "id": "00059af8",
+    "name": "Pencil (junk)"
+},
+{
+    "id": "000628ef",
+    "name": "Stingwing barb (misc)"
+},
+{
+    "id": "000628ed",
+    "name": "Radscorpion stinger (junk)"
+},
+{
+    "id": "000aec66",
+    "name": "Silver (salvaged)"
+},
+{
     "id": "00107bd6",
     "name": "Baseball grenade",
     "filters": ["ammo"],
@@ -3204,5 +3240,194 @@
     {
         "qty": 1,
         "id": "000628ca"
+    }]
+},
+{
+    "id": "00058aeb",
+    "name": "Bleed out syringe",
+    "filters": ["ammo"],
+    "effect": {
+        "syringe": "30 Bleed"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000aec61"
+    },
+    {
+        "qty": 1,
+        "id": "001bf732"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    }]
+},
+{
+    "id": "00058aea",
+    "name": "Bloatfly larva",
+    "effect": {
+        "syringe": "Spawn Bloatfly"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0002c59e"
+    },
+    {
+        "qty": 1,
+        "id": "00069085"
+    },
+    {
+        "qty": 1,
+        "id": "0003377d"
+    }]
+},
+{
+    "id": "00058af2",
+    "name": "Endangerol syringe",
+    "effect": {
+        "syringe": "-25% Dmg Resist"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001bf72d"
+    },
+    {
+        "qty": 1,
+        "id": "00069085"
+    },
+    {
+        "qty": 1,
+        "id": "00033779"
+    },
+    {
+        "qty": 1,
+        "id": "00059af8"
+    }]
+},
+{
+    "id": "00058af4",
+    "name": "Lock Joint syringe",
+    "effect": {
+        "syringe": "Paralyze"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 4,
+        "id": "000aec63"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    },
+    {
+        "qty": 1,
+        "id": "000628ef"
+    },
+    {
+        "qty": 2,
+        "id": "000d981d"
+    }]
+},
+{
+    "id": "00058af5",
+    "name": "Mind Cloud syringe",
+    "effect": {
+        "syringe": "Blind"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00059a71"
+    },
+    {
+        "qty": 2,
+        "id": "000aec5c"
+    },
+    {
+        "qty": 1,
+        "id": "00069085"
+    },
+    {
+        "qty": 1,
+        "id": "000366c0"
+    }]
+},
+{
+    "id": "00058af7",
+    "name": "Pax syringe",
+    "effect": {
+        "syringe": "Pacify"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "00033102"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    }]
+},
+{
+    "id": "00058b0c",
+    "name": "Radscorpion venom syringe",
+    "effect": {
+        "syringe": "40 Poison"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00069085"
+    },
+    {
+        "qty": 1,
+        "id": "000628ed"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    }]
+},
+{
+    "id": "00058b0e",
+    "name": "Yellow Belly syringe",
+    "effect": {
+        "syringe": "Fear"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00060e73"
+    },
+    {
+        "qty": 1,
+        "id": "001bf730"
+    },
+    {
+        "qty": 1,
+        "id": "00069085"
+    },
+    {
+        "qty": 2,
+        "id": "000aec66"
     }]
 }]

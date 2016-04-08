@@ -18,7 +18,7 @@ $ ->
     for id, val of filters
       filter = $('#' + id)
       curstate = filter.prop('checked')
-      if curstate ^ val
+      if curstate != val
         filter.click()
 
   $('.sublist').prev().click ->
