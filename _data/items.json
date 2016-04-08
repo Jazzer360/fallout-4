@@ -1683,6 +1683,10 @@
     {
         "qty": 1,
         "id": "001a71e7"
+    },
+    {
+        "qty": 1,
+        "id": "00058ae9"
     }]
 },
 {
@@ -2782,4 +2786,423 @@
 {
     "id": "000657fe",
     "name": "Vegetable starch (junk)"
+},
+{
+    "id": "00059a76",
+    "name": "Baseball (junk)"
+},
+{
+    "id": "0001faa5",
+    "name": "Adhesive (salvaged)"
+},
+{
+    "id": "0001fa91",
+    "name": "Aluminum (salvaged)"
+},
+{
+    "id": "00069086",
+    "name": "Nuclear material (salvaged)"
+},
+{
+    "id": "00069082",
+    "name": "Spring (salvaged)"
+},
+{
+    "id": "000e69af",
+    "name": "Hallucigen gas canister (junk)"
+},
+{
+    "id": "000aec5f",
+    "name": "Cloth (salvaged)"
+},
+{
+    "id": "001e55e5",
+    "name": "Vault-Tec lunchbox (misc)"
+},
+{
+    "id": "00069087",
+    "name": "Fiber optics (salvaged)"
+},
+{
+    "id": "00107bd6",
+    "name": "Baseball grenade",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": 101
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 1,
+        "id": "00059a76"
+    },
+    {
+        "qty": 2,
+        "id": "001bf730"
+    },
+    {
+        "qty": 1,
+        "id": "001bf732"
+    },
+    {
+        "qty": 2,
+        "id": "000731a4"
+    }]
+},
+{
+    "id": "000ff21d",
+    "name": "Cryogenic grenade",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": 101
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "001bf72d"
+    },
+    {
+        "qty": 3,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 3,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 2,
+        "id": "00069086"
+    },
+    {
+        "qty": 1,
+        "id": "00069082"
+    }]
+},
+{
+    "id": "000eebed",
+    "name": "Fragmentation grenade",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": 151
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 2,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 2,
+        "id": "001bf730"
+    },
+    {
+        "qty": 3,
+        "id": "001bf732"
+    },
+    {
+        "qty": 1,
+        "id": "00069082"
+    }]
+},
+{
+    "id": "000e98e5",
+    "name": "HalluciGen gas grenade",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": "Frenzy"
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 3,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 2,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 1,
+        "id": "000e69af"
+    },
+    {
+        "qty": 1,
+        "id": "00069082"
+    }]
+},
+{
+    "id": "0010c3c6",
+    "name": "Molotov cocktail",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": 51
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 2,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 1,
+        "id": "000aec5f"
+    },
+    {
+        "qty": 2,
+        "id": "00069085"
+    },
+    {
+        "qty": 4,
+        "id": "001bf732"
+    }]
+},
+{
+    "id": "0010a33d",
+    "name": "Plasma grenade",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": "150 Energy + 150"
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 4,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 4,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 2,
+        "id": "0006907b"
+    },
+    {
+        "qty": 3,
+        "id": "00069086"
+    },
+    {
+        "qty": 1,
+        "id": "00069082"
+    }]
+},
+{
+    "id": "000ff21f",
+    "name": "Pulse grenade",
+    "filters": ["ammo"],
+    "effect": {
+        "grenade": "150 Energy"
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 4,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 3,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 1,
+        "id": "0006907b"
+    },
+    {
+        "qty": 2,
+        "id": "00069086"
+    },
+    {
+        "qty": 1,
+        "id": "00069082"
+    }]
+},
+{
+    "id": "0010771f",
+    "name": "Bottlecap mine",
+    "filters": ["ammo"],
+    "effect": {
+        "mine": 301
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 2,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 2,
+        "id": "001bf730"
+    },
+    {
+        "qty": 2,
+        "id": "001bf732"
+    },
+    {
+        "qty": 2,
+        "id": "000731a4"
+    },
+    {
+        "qty": 1,
+        "id": "001e55e5"
+    }]
+},
+{
+    "id": "0010c669",
+    "name": "Cryo mine",
+    "filters": ["ammo"],
+    "effect": {
+        "mine": 101
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "001bf72d"
+    },
+    {
+        "qty": 3,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 4,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 2,
+        "id": "0006907b"
+    },
+    {
+        "qty": 2,
+        "id": "00069086"
+    }]
+},
+{
+    "id": "000e56c2",
+    "name": "Fragmentation mine",
+    "filters": ["ammo"],
+    "effect": {
+        "mine": 101
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 3,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 3,
+        "id": "001bf730"
+    },
+    {
+        "qty": 3,
+        "id": "001bf732"
+    },
+    {
+        "qty": 2,
+        "id": "000731a4"
+    }]
+},
+{
+    "id": "0010a342",
+    "name": "Plasma mine",
+    "filters": ["ammo"],
+    "effect": {
+        "mine": "150 Energy + 150"
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 4,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 5,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 3,
+        "id": "0006907b"
+    },
+    {
+        "qty": 3,
+        "id": "00069087"
+    },
+    {
+        "qty": 3,
+        "id": "00069086"
+    }]
+},
+{
+    "id": "0010a344",
+    "name": "Pulse mine",
+    "filters": ["ammo"],
+    "effect": {
+        "mine": "150 Energy"
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 4,
+        "id": "0001faa5"
+    },
+    {
+        "qty": 4,
+        "id": "0001fa91"
+    },
+    {
+        "qty": 3,
+        "id": "0006907b"
+    },
+    {
+        "qty": 2,
+        "id": "00069087"
+    },
+    {
+        "qty": 3,
+        "id": "00069086"
+    }]
+},
+{
+    "id": "00058ae9",
+    "name": "Berserk syringe",
+    "filters": ["ammo"],
+    "effect": {
+        "syringe": "Frenzy"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "00060e73"
+    },
+    {
+        "qty": 1,
+        "id": "000366c4"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 1,
+        "id": "000731a4"
+    }],
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "000628ca"
+    }]
 }]
