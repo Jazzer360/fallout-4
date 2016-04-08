@@ -1,6 +1,8 @@
 ---
 layout: default
-js: scripts/listcollapse.js
+js:
+ - https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.0/js.cookie.min.js
+ - scripts/listcollapse.js
 ---
 
 {% assign items = site.data.items | sort:"name" %}
@@ -11,10 +13,10 @@ js: scripts/listcollapse.js
 <div class="content-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-sm-6 col-xs-12">
+      <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
         {{ filter_button }}
         <h4>Crafted items</h4>
-        {% include filter.html %}
+        {% include filter.html type='crafted' %}
         <ul class="list-group">
           {% for item in items %}
             {% if item.components %}
@@ -24,10 +26,10 @@ js: scripts/listcollapse.js
         </ul>
       </div>
     
-      <div class="col-lg-4 col-sm-6 col-xs-12">
+      <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
         {{ filter_button }}
         <h4>Items used in crafting</h4>
-        {% include filter.html %}
+        {% include filter.html type='reagent' %}
         <ul class="list-group">
           {% for item in items %}
             {% if item.used_in %}
@@ -36,10 +38,10 @@ js: scripts/listcollapse.js
           {% endfor %}
       </div>
     
-      <div class="col-lg-4 col-sm-6 col-xs-12">
+      <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
         {{ filter_button }}
         <h4>Items not used in crafting</h4>
-        {% include filter.html %}
+        {% include filter.html type='aid' %}
         <ul class="list-group">
           {% for item in items %}
             {% unless item.components or item.used_in %}

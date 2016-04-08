@@ -3,7 +3,7 @@
 <div class="filters">
   {% for _filter in filters %}
   <div class="filter-container">
-    <input class="filter" type='checkbox' name='{{ _filter }}' checked /><span class="filter-label"> {{ _filter | capitalize }}</span>
+    <input class="filter" type='checkbox' id='{{ include.type | append: _filter | append: "filter" }}' name='{{ _filter }}' checked /><span class="filter-label"> {{ _filter | capitalize }}</span>
   </div>
   {% endfor %}
 </div>
