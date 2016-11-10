@@ -1,6 +1,7 @@
 ---
 ---
 $ ->
+  $items = $('list-group-item')
 
   $.fn.hideItem = () ->
     this.each ->
@@ -21,34 +22,65 @@ $ ->
     $('.expand', this).toggleClass('flipped')
     return this
 
-  saveFilters = ->
-    cookieval = {}
-    $('.filter').each ->
-      cookieval[this.id] = this.checked
-      return true
-    Cookies.set('filters', cookieval)
+  filterItems = ->
+    textFilter = $('#text-filter').val().toLowerCase()
+    typeFilters = []
+    dlcFilters = []
+    $('.type-filter').each ->
+      if this.checked
+        typeFilters.push(this.name)
+    $('.dlc-filter').each ->
+      if this.checked
+        dlcFilters.push(this.name)
+    show = items.filter ->
+      if this.getAttribute('data-name').indexOf(textFilter) is -1
+        return false
+      else if this.getAttribute('data-type') not in typeFilters
+        return false
+      else
+        dlc = this.getAttribute('data-dlc')
+        if not dlc
+          return true
+        else if dlc not in dlcFilters
+          return false
+        else
+          return true
+    hide = items.not show
+    show.showItem()
+    hide.hideItem()
 
-  loadFilters = ->
-    filters = Cookies.getJSON('filters')
-    for id, val of filters
-      filter = $('#' + id)
-      curstate = filter.prop('checked')
-      if curstate != val
-        filter.click()
+  $('.type-filter').change filterItems
+  $('#text-filter').on 'input', filterItems
+
+
+
+  # saveFilters = ->
+  #   cookieval = {}
+  #   $('.filter').each ->
+  #     cookieval[this.id] = this.checked
+  #     return true
+  #   Cookies.set('filters', cookieval)
+
+  # loadFilters = ->
+  #   filters = Cookies.getJSON('filters')
+  #   for id, val of filters
+  #     filter = $('#' + id)
+  #     curstate = filter.prop('checked')
+  #     if curstate != val
+  #       filter.click()
 
   $('.sublist').prev('.list-group-item').click ->
     $(this).toggleSublist()
 
-  $('.toggle-filter').click ->
-    $(this).siblings('.filters').slideToggle()
+  # $('.filter').change ->
+  #   items = $(this)
+  #     .closest('.item-list')
+  #     .find('.' + this.name)
+  #   if this.checked then items.showItem() else items.hideItem()
 
-  $('.filter').change ->
-    items = $(this)
-      .closest('.item-list')
-      .find('.' + this.name)
-    if this.checked then items.showItem() else items.hideItem()
+  #loadFilters()
 
-  loadFilters()
+  # $('.filter').change ->
+  #   saveFilters()
 
-  $('.filter').change ->
-    saveFilters()
+

@@ -1,5 +1,5 @@
 {% assign type = include.type %}
-<li class="{{ type }} {{ item.filters | join:" " }} list-group-item">
+<li class="{{ type }} list-group-item" data-name="{{ item.name | downcase }}" data-type="{{ item.filters | join:" " }}">
   <div class="effects pull-right">
     {% for effect in item.effect %}
     <span class="{{ effect[0] }}">{{ effect[1] }}</span>

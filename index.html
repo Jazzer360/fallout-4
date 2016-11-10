@@ -13,10 +13,26 @@ js:
 <div class="content-wrapper">
   <div class="container">
     <div class="row">
+      <div class="col-lg-4 col-sm-6 col-xs-12">
+        <h4>Filter by name</h4>
+        <input class="filter" type="text" placeholder="Search for..." id="text-filter">
+      </div>
+      <div class="col-lg-4 col-sm-6 col-xs-12">
+        <h4>Filter by type</h4>
+        <div class="filters">
+          {% assign filters = "food drinks chems ammo" | split: " " %}
+          {% for _filter in filters %}
+          <div class="filter-container">
+            <input type="checkbox" name="{{ _filter }}" class="type-filter" checked><span class="filter-label"> {{ _filter | capitalize }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-xs-12 dlc-filters"></div>
+    </div>
+    <div class="row">
       <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
-        {{ filter_button }}
         <h4>Crafted items</h4>
-        {% include filter.html type='crafted' %}
         <ul class="list-group">
           {% for item in items %}
             {% if item.components %}
@@ -27,9 +43,7 @@ js:
       </div>
     
       <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
-        {{ filter_button }}
         <h4>Items used in crafting</h4>
-        {% include filter.html type='reagent' %}
         <ul class="list-group">
           {% for item in items %}
             {% if item.used_in %}
@@ -39,9 +53,7 @@ js:
       </div>
     
       <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
-        {{ filter_button }}
         <h4>Items not used in crafting</h4>
-        {% include filter.html type='aid' %}
         <ul class="list-group">
           {% for item in items %}
             {% unless item.components or item.used_in %}
