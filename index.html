@@ -12,27 +12,67 @@ js:
 
 <div class="content-wrapper">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 col-xs-12">
-        <h4>Filter by name</h4>
-        <input class="filter" type="text" placeholder="Search for..." id="text-filter">
-      </div>
-      <div class="col-lg-4 col-sm-6 col-xs-12">
-        <h4>Filter by type</h4>
-        <div class="filters">
-          {% assign filters = "food drinks chems ammo" | split: " " %}
-          {% for _filter in filters %}
-          <div class="filter-container">
-            <input type="checkbox" name="{{ _filter }}" class="type-filter" checked><span class="filter-label"> {{ _filter | capitalize }}</span>
-          </div>
-          {% endfor %}
+    <!-- Filters Row -->
+    <div class="row filter-row">
+      <!-- Name Filter -->
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="filter-div">
+          <h4>Filter by name</h4>
+          <input class="filter" type="text" placeholder="Search for..." id="text-filter">
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 col-xs-12 dlc-filters"></div>
+      <!-- Type Filter -->
+      <div class="col-lg-4 col-sm-6 col-xs-12">
+        <div class="filter-div">
+          <h4>Filter by type</h4>
+          <div class="filters">
+            {% assign filters = "food drinks chems ammo" | split: " " %}
+            {% for _filter in filters %}
+            <div class="filter-container">
+              <input type="checkbox" name="{{ _filter }}" class="type-filter" checked><span class="filter-label"> {{ _filter | capitalize }}</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- DLC Filter -->
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="filter-div">
+          <h4>Filter by DLC</h4>
+          <div class="filters">
+            {% assign filters = "far harbor|nuka world" | split: "|" %}
+            {% for _filter in filters %}
+            <div class="filter-container-2">
+              <input type="checkbox" name="{{ _filter }}" class="dlc-filter" checked><span class="filter-label"> {{ _filter | capitalize }}</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- Effect Filter -->
+      <div class="col-lg-2 col-sm-6 col-xs-12">
+        <div class="filter-div">
+          <h4>Filter by effect</h4>
+          <select>
+            <option value="">&ltNone&gt</option>
+            <optgroup label="SPECIAL">
+              <option value="strength">Strength</option>
+              <option value="perception">Perception</option>
+              <option value="endurance">Endurance</option>
+              <option value="charisma">Charisma</option>
+              <option value="intelligence">Intelligence</option>
+              <option value="agility">Agility</option>
+              <option value="luck">Luck</option>
+            </optgroup>
+            <option value="health">Health</option>
+          </select>
+        </div>
+      </div>
     </div>
+    <!-- Items Row -->
     <div class="row">
       <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
-        <h4>Crafted items</h4>
+        <h4 class="list-header">Crafted items</h4>
         <ul class="list-group">
           {% for item in items %}
             {% if item.components %}
@@ -43,7 +83,7 @@ js:
       </div>
     
       <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
-        <h4>Items used in crafting</h4>
+        <h4 class="list-header">Items used in crafting</h4>
         <ul class="list-group">
           {% for item in items %}
             {% if item.used_in %}
@@ -53,7 +93,7 @@ js:
       </div>
     
       <div class="col-lg-4 col-sm-6 col-xs-12 item-list">
-        <h4>Items not used in crafting</h4>
+        <h4 class="list-header">Items not used in crafting</h4>
         <ul class="list-group">
           {% for item in items %}
             {% unless item.components or item.used_in %}

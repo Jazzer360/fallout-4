@@ -1,21 +1,7 @@
 ---
 ---
 $ ->
-  $items = $('list-group-item')
-
-  $.fn.hideItem = () ->
-    this.each ->
-      item = $(this)
-      if item.is(':visible')
-        if item.next('.sublist').is(':visible')
-          item.toggleSublist()
-        item.slideToggle()
-
-  $.fn.showItem = () ->
-    this.each ->
-      item = $(this)
-      if item.is(':hidden')
-        item.slideToggle()
+  $items = $('.list-group-item')
 
   $.fn.toggleSublist = () ->
     this.next('.sublist').slideToggle()
@@ -32,55 +18,26 @@ $ ->
     $('.dlc-filter').each ->
       if this.checked
         dlcFilters.push(this.name)
-    show = items.filter ->
-      if this.getAttribute('data-name').indexOf(textFilter) is -1
+    show = $items.filter ->
+      if this.getAttribute('data-type') not in typeFilters
         return false
-      else if this.getAttribute('data-type') not in typeFilters
+      dlc = this.getAttribute('data-dlc')
+      if dlc and dlc not in dlcFilters
         return false
-      else
-        dlc = this.getAttribute('data-dlc')
-        if not dlc
-          return true
-        else if dlc not in dlcFilters
-          return false
-        else
-          return true
-    hide = items.not show
-    show.showItem()
-    hide.hideItem()
+      name = this.getAttribute('data-name')
+      if textFilter and name.indexOf(textFilter) is -1
+        return false
+      return true
+    hide = $items.not show
+    show.show()
+    show.each ->
+      if $('.expand', this).hasClass('flipped')
+        $(this).next('.sublist').show()
+    hide.hide()
+    hide.next('.sublist').hide()
 
   $('.type-filter').change filterItems
   $('#text-filter').on 'input', filterItems
 
-
-
-  # saveFilters = ->
-  #   cookieval = {}
-  #   $('.filter').each ->
-  #     cookieval[this.id] = this.checked
-  #     return true
-  #   Cookies.set('filters', cookieval)
-
-  # loadFilters = ->
-  #   filters = Cookies.getJSON('filters')
-  #   for id, val of filters
-  #     filter = $('#' + id)
-  #     curstate = filter.prop('checked')
-  #     if curstate != val
-  #       filter.click()
-
   $('.sublist').prev('.list-group-item').click ->
     $(this).toggleSublist()
-
-  # $('.filter').change ->
-  #   items = $(this)
-  #     .closest('.item-list')
-  #     .find('.' + this.name)
-  #   if this.checked then items.showItem() else items.hideItem()
-
-  #loadFilters()
-
-  # $('.filter').change ->
-  #   saveFilters()
-
-

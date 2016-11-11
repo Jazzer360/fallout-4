@@ -45,6 +45,10 @@
 
 // Item list
 
+.list-header {
+  text-align: center;
+}
+
 .sublist {
   display: none;
   list-style: none;
@@ -164,4 +168,19 @@
   white-space: normal;
   display: inline-block;
   width: 25%;
+}
+
+.filter-container-2 {
+  @extend .filter-container;
+  width: 50%;
+}
+
+.filter-div {
+  text-align: center;
+  margin-bottom: 4px;
+  padding: 5px;
+  background-color: #FFF;
+  height: 78px;
+  border: 1px solid #DDD;
+  border-radius: 4px;
 }
