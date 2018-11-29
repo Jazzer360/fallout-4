@@ -53,6 +53,7 @@ $ ->
     hide.next('.sublist').hide()
 
   $('.type-filter').change filterItems
+  $('.dlc-filter').change filterItems
   $('#effect-filter').change filterItems
   $('#text-filter').on 'input', filterItems
 

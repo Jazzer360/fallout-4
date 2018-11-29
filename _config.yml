@@ -20,6 +20,7 @@ github_username: Jazzer360
 
 exclude:
   - validate.py
+  - env
 
 # Plugins
 gems:

@@ -79,6 +79,11 @@
   display: block;
 }
 
+.dlc {
+  color: $grey-color;
+  font-size: 8pt;
+}
+
 @each $effect in $effects {
   .#{$effect} {
     font-weight: bold;
@@ -101,6 +106,11 @@
   }
 }
 
+.night_vision,
+.poison_resist,
+.safe_fall,
+.invisibility,
+.cure,
 .barter,
 .infra_vision,
 .vats_accuracy,

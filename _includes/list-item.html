@@ -1,11 +1,14 @@
 {% assign type = include.type %}
-<li class="{{ type }} list-group-item" data-name="{{ item.name | downcase }}" data-type="{{ item.filters | join:" " }}">
+<li class="{{ type }} list-group-item" data-name="{{ item.name | downcase }}" data-type="{{ item.filters | join:" " }}"{% if item.dlc %} data-dlc="{{ item.dlc }}"{% endif %}>
   <div class="effects pull-right">
     {% for effect in item.effect %}
     <span class="{{ effect[0] }}">{{ effect[1] }}</span>
     {% endfor %}
   </div>
   <span class="item-name">{{ item.name }}</span>
+  {% if item.dlc %}
+  <span class="dlc">({{ item.dlc | capitalize }})</span>
+  {% endif %}
   <span class="weight">Weight: {{ item.weight }}</span>
   <i class="expand fa fa-chevron-down"></i>
 </li>
