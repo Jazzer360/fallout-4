@@ -1,0 +1,471 @@
+{
+    "id": "00178b1d",
+    "name": "Ice cold beer",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b17",
+    "name": "Ice cold Gwinnett ale",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b18",
+    "name": "Ice cold Gwinnett brew",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b19",
+    "name": "Ice cold Gwinnett lager",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1a",
+    "name": "Ice cold Gwinnett pale",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1b",
+    "name": "Ice cold Gwinnett pilsner",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b1c",
+    "name": "Ice cold Gwinnett stout",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "charisma": 1,
+        "intelligence": -1,
+        "ap": 35
+    },
+    "weight": 1
+},
+{
+    "id": "00178b24",
+    "name": "Ice cold Nuka-Cherry",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 75,
+        "ap": 35,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "00178b23",
+    "name": "Ice cold Nuka-Cola",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 45,
+        "ap": 20,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "00178b25",
+    "name": "Ice cold Nuka-Cola Quantum",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 650,
+        "ap": 125,
+        "rads": 5
+    },
+    "weight": 1
+},
+{
+    "id": "xx02edad",
+    "name": "Ice cold Nuka-Cola Orange",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150,
+        "ap": 50,
+        "rad_resist": 25
+    },
+    "weight": 1
+},
+{
+    "id": "xx02edaf",
+    "name": "Ice cold Nuka-Cola Quartz",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "ap": 360,
+        "rads": 15
+    },
+    "weight": 1
+},
+{
+    "id": "xx02edb0",
+    "name": "Ice cold Nuka-Cola Victory",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 1020,
+        "rads": 15
+    },
+    "weight": 1
+},
+{
+    "id": "xx02edb1",
+    "name": "Ice cold Nuka-Cola Wild",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 30,
+        "rads": 5,
+        "ap": 10
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502d5",
+    "name": "Ice cold Nuka-Cooler",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 1800,
+        "max_health": 50,
+        "rads": 5,
+        "ap": 349,
+        "max_ap": 20
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502b7",
+    "name": "Ice cold Nuka-Fancy",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 130,
+        "ap": 125
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502ba",
+    "name": "Ice cold Nuka-Free",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502bd",
+    "name": "Ice cold Nuka-Frutti",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 250,
+        "ap": 75,
+        "rads": -500,
+        "rad_resist": 25
+    },
+    "weight": 1
+},
+{
+    "id": "xx02edab",
+    "name": "Ice cold Nuka-Grape",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 130,
+        "ap": 75,
+        "rads": -400
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502c0",
+    "name": "Ice cold Nuka-Hearty",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 200,
+        "ap": 50,
+        "carry_weight": 25
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502c3",
+    "name": "Ice cold Nuka-Lixir",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150,
+        "rad_resist": 30,
+        "damage_resist": 35
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502c6",
+    "name": "Ice cold Nuka-Love",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150,
+        "ap": 300
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502c9",
+    "name": "Ice cold Nuka-Power",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "carry_weight": 60
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502cc",
+    "name": "Ice cold Nuka-Punch",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "ap": 50,
+        "max_health": 30,
+        "max_ap": 10,
+        "rads": -540
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502cf",
+    "name": "Ice cold Nuka-Ray",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 1200,
+        "rad_resist": 25
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502d2",
+    "name": "Ice cold Nuka-Rush",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 1200,
+        "ap": 50
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502d8",
+    "name": "Ice cold Nuka-Sunrise",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150,
+        "ap": 75,
+        "rad_resist": 25
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502db",
+    "name": "Ice cold Nuka-Twin",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150,
+        "ap": 50
+    },
+    "weight": 1
+},
+{
+    "id": "xx02eda9",
+    "name": "Ice cold Nuka-Cola Dark",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "endurance": 1,
+        "perception": -1
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502b4",
+    "name": "Ice cold Nuka-Cide",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 1800,
+        "ap": 360,
+        "max_health": 50,
+        "max_ap": 20,
+        "rad_resist": 35,
+        "carry_weight": 35
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502b2",
+    "name": "Ice cold Nuka-Buzz",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 40,
+        "ap": 150
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502ac",
+    "name": "Ice cold Nuka-Bombdrop",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "endurance": 1,
+        "agility": 1
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502a9",
+    "name": "Ice cold Nuka-Berry",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 250,
+        "ap": 75,
+        "rads": -528
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502af",
+    "name": "Ice cold Newka-Cola",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 250,
+        "ap": 75
+    },
+    "weight": 1
+},
+{
+    "id": "xx054284",
+    "name": "Ice cold Vim Quartz",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 75,
+        "ap": 35,
+        "carry_weight": 20
+    },
+    "weight": 1
+},
+{
+    "id": "xx054282",
+    "name": "Ice cold Vim Captain's Blend",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 700,
+        "ap": 120,
+        "charisma": -2
+    },
+    "weight": 1
+},
+{
+    "id": "xx054281",
+    "name": "Ice cold Vim",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 55,
+        "ap": 10
+    },
+    "weight": 1
+},
+{
+    "id": "xx054286",
+    "name": "Ice cold Vim Refresh",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 75,
+        "ap": 60,
+        "regen_ap": "12/s"
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502e1",
+    "name": "Ice cold Nuka-Extreme",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "max_health": 30,
+        "max_ap": 10,
+        "rads": -600
+    },
+    "weight": 1
+},
+{
+    "id": "xx0502de",
+    "name": "Ice cold Nuka-Void",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "max_health": 30,
+        "max_ap": 10,
+        "carry_weight": 25
+    },
+    "weight": 1
+}

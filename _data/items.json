@@ -61,6 +61,10 @@
     {
         "qty": 1,
         "id": "0004693f"
+    },
+    {
+        "qty": 1,
+        "id": "xx054452"
     }]
 },
 {
@@ -139,7 +143,12 @@
         "health": 10,
         "rads": 1
     },
-    "weight": 0.1
+    "weight": 0.1,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "xx0088a8"
+    }]
 },
 {
     "id": "000bea58",
@@ -188,6 +197,10 @@
     {
         "qty": 1,
         "id": "xx05715b"
+    },
+    {
+        "qty": 1,
+        "id": "xx0088a8"
     }]
 },
 {
@@ -198,7 +211,12 @@
         "health": 10,
         "rads": 3
     },
-    "weight": 0.1
+    "weight": 0.1,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "xx042c3d"
+    }]
 },
 {
     "id": "000939b8",
@@ -238,6 +256,10 @@
     {
         "qty": 3,
         "id": "000657fe"
+    },
+    {
+        "qty": 1,
+        "id": "xx008833"
     }]
 },
 {
@@ -272,7 +294,12 @@
         "health": 10,
         "rads": 3
     },
-    "weight": 0.5
+    "weight": 0.5,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "xx0088aa"
+    }]
 },
 {
     "id": "00046939",
@@ -467,6 +494,10 @@
     {
         "qty": 1,
         "id": "0004696a"
+    },
+    {
+        "qty": 1,
+        "id": "xx0088aa"
     }]
 },
 {
@@ -735,6 +766,10 @@
     {
         "qty": 2,
         "id": "xx032c2e"
+    },
+    {
+        "qty": 1,
+        "id": "xx0088a6"
     }]
 },
 {
@@ -872,6 +907,10 @@
     {
         "qty": 2,
         "id": "00058af7"
+    },
+    {
+        "qty": 1,
+        "id": "xx008833"
     }]
 },
 {
@@ -1433,6 +1472,10 @@
     {
         "qty": 1,
         "id": "001a71e7"
+    },
+    {
+        "qty": 1,
+        "id": "xx042c3d"
     }]
 },
 {
@@ -1652,6 +1695,10 @@
     {
         "qty": 1,
         "id": "00058ae9"
+    },
+    {
+        "qty": 1,
+        "id": "xx03b8b4"
     }]
 },
 {
@@ -1748,6 +1795,18 @@
     {
         "qty": 1,
         "id": "xx042c39"
+    },
+    {
+        "qty": 1,
+        "id": "xx048bd4"
+    },
+    {
+        "qty": 1,
+        "id": "xx04b4bb"
+    },
+    {
+        "qty": 1,
+        "id": "xx04b4b5"
     }]
 },
 {
@@ -1851,123 +1910,6 @@
     "weight": 1
 },
 {
-    "id": "00178b1d",
-    "name": "Ice cold beer",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b17",
-    "name": "Ice cold Gwinnett ale",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b18",
-    "name": "Ice cold Gwinnett brew",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b19",
-    "name": "Ice cold Gwinnett lager",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b1a",
-    "name": "Ice cold Gwinnett pale",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b1b",
-    "name": "Ice cold Gwinnett pilsner",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b1c",
-    "name": "Ice cold Gwinnett stout",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "charisma": 1,
-        "intelligence": -1,
-        "ap": 35
-    },
-    "weight": 1
-},
-{
-    "id": "00178b24",
-    "name": "Ice cold Nuka-Cherry",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 75,
-        "ap": 35,
-        "rads": 5
-    },
-    "weight": 1
-},
-{
-    "id": "00178b23",
-    "name": "Ice cold Nuka-Cola",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 45,
-        "ap": 20,
-        "rads": 5
-    },
-    "weight": 1
-},
-{
-    "id": "00178b25",
-    "name": "Ice cold Nuka-Cola Quantum",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 650,
-        "ap": 125,
-        "rads": 5
-    },
-    "weight": 1
-},
-{
     "id": "0021681d",
     "name": "Institute bottled water",
     "filters": ["drinks"],
@@ -2009,6 +1951,30 @@
     {
         "qty": 1,
         "id": "xx030f01"
+    },
+    {
+        "qty": 1,
+        "id": "xx030eff"
+    },
+    {
+        "qty": 1,
+        "id": "xx030efd"
+    },
+    {
+        "qty": 1,
+        "id": "xx042c43"
+    },
+    {
+        "qty": 1,
+        "id": "xx030ef7"
+    },
+    {
+        "qty": 1,
+        "id": "xx030efc"
+    },
+    {
+        "qty": 1,
+        "id": "xx03b8b3"
     }]
 },
 {
@@ -2041,6 +2007,42 @@
     {
         "qty": 1,
         "id": "xx042c39"
+    },
+    {
+        "qty": 1,
+        "id": "xx030eff"
+    },
+    {
+        "qty": 1,
+        "id": "xx030efd"
+    },
+    {
+        "qty": 1,
+        "id": "xx03b8b4"
+    },
+    {
+        "qty": 1,
+        "id": "xx030f00"
+    },
+    {
+        "qty": 1,
+        "id": "xx030efe"
+    },
+    {
+        "qty": 1,
+        "id": "xx042c41"
+    },
+    {
+        "qty": 1,
+        "id": "xx042c3d"
+    },
+    {
+        "qty": 1,
+        "id": "xx03b8b3"
+    },
+    {
+        "qty": 1,
+        "id": "xx030ef9"
     }]
 },
 {
@@ -2065,6 +2067,14 @@
     {
         "qty": 1,
         "id": "xx030efa"
+    },
+    {
+        "qty": 1,
+        "id": "xx030efb"
+    },
+    {
+        "qty": 1,
+        "id": "xx030ef9"
     }]
 },
 {
@@ -2123,6 +2133,10 @@
     {
         "qty": 1,
         "id": "xx04d2e8"
+    },
+    {
+        "qty": 1,
+        "id": "xx008833"
     }]
 },
 {
@@ -2166,7 +2180,12 @@
         "strength": 1,
         "intelligence": -1
     },
-    "weight": 1
+    "weight": 1,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "xx03b8b4"
+    }]
 },
 {
     "id": "000366c3",
@@ -2182,6 +2201,14 @@
     {
         "qty": 1,
         "id": "0004696a"
+    },
+    {
+        "qty": 1,
+        "id": "xx03b8b4"
+    },
+    {
+        "qty": 1,
+        "id": "xx04b5fa"
     }]
 },
 {
@@ -2463,6 +2490,10 @@
     {
         "qty": 1,
         "id": "00058af2"
+    },
+    {
+        "qty": 1,
+        "id": "xx042c41"
     }]
 },
 {
@@ -2687,7 +2718,12 @@
     "effect": {
         "rad_resist": 100
     },
-    "weight": 0.1
+    "weight": 0.1,
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "xx054452"
+    }]
 },
 {
     "id": "00023742",
@@ -2779,6 +2815,14 @@
     {
         "qty": 3,
         "id": "000008ab"
+    },
+    {
+        "qty": 1,
+        "id": "xx048bd4"
+    },
+    {
+        "qty": 1,
+        "id": "xx04b4bb"
     }]
 },
 {
@@ -4138,6 +4182,10 @@
     {
         "qty": 1,
         "id": "xx057158"
+    },
+    {
+        "qty": 2,
+        "id": "xx04b5fa"
     }]
 },
 {
@@ -4328,6 +4376,14 @@
     {
         "qty": 1,
         "id": "xx057158"
+    },
+    {
+        "qty": 1,
+        "id": "xx0088a6"
+    },
+    {
+        "qty": 1,
+        "id": "xx04b5fa"
     }]
 },
 {
@@ -4344,6 +4400,10 @@
     {
         "qty": 1,
         "id": "xx057158"
+    },
+    {
+        "qty": 2,
+        "id": "xx04b4b5"
     }]
 },
 {
@@ -4690,324 +4750,6 @@
     }]
 },
 {
-    "id": "xx02edad",
-    "name": "Ice cold Nuka-Cola Orange",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 150,
-        "ap": 50,
-        "rad_resist": 25
-    },
-    "weight": 1
-},
-{
-    "id": "xx02edaf",
-    "name": "Ice cold Nuka-Cola Quartz",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "ap": 360,
-        "rads": 15
-    },
-    "weight": 1
-},
-{
-    "id": "xx02edb0",
-    "name": "Ice cold Nuka-Cola Victory",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 1020,
-        "rads": 15
-    },
-    "weight": 1
-},
-{
-    "id": "xx02edb1",
-    "name": "Ice cold Nuka-Cola Wild",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 30,
-        "rads": 5,
-        "ap": 10
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502d5",
-    "name": "Ice cold Nuka-Cooler",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 1800,
-        "max_health": 50,
-        "rads": 5,
-        "ap": 349,
-        "max_ap": 20
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502b7",
-    "name": "Ice cold Nuka-Fancy",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 130,
-        "ap": 125
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502ba",
-    "name": "Ice cold Nuka-Free",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 150
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502bd",
-    "name": "Ice cold Nuka-Frutti",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 250,
-        "ap": 75,
-        "rads": -500,
-        "rad_resist": 25
-    },
-    "weight": 1
-},
-{
-    "id": "xx02edab",
-    "name": "Ice cold Nuka-Grape",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 130,
-        "ap": 75,
-        "rads": -400
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502c0",
-    "name": "Ice cold Nuka-Hearty",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 200,
-        "ap": 50,
-        "carry_weight": 25
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502c3",
-    "name": "Ice cold Nuka-Lixir",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 150,
-        "rad_resist": 30,
-        "damage_resist": 35
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502c6",
-    "name": "Ice cold Nuka-Love",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 150,
-        "ap": 300
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502c9",
-    "name": "Ice cold Nuka-Power",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "carry_weight": 60
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502cc",
-    "name": "Ice cold Nuka-Punch",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 100,
-        "ap": 50,
-        "max_health": 30,
-        "max_ap": 10,
-        "rads": -540
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502cf",
-    "name": "Ice cold Nuka-Ray",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 1200,
-        "rad_resist": 25
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502d2",
-    "name": "Ice cold Nuka-Rush",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 1200,
-        "ap": 50
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502d8",
-    "name": "Ice cold Nuka-Sunrise",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 150,
-        "ap": 75,
-        "rad_resist": 25
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502db",
-    "name": "Ice cold Nuka-Twin",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 150,
-        "ap": 50
-    },
-    "weight": 1
-},
-{
-    "id": "xx02eda9",
-    "name": "Ice cold Nuka-Cola Dark",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "endurance": 1,
-        "perception": -1
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502b4",
-    "name": "Ice cold Nuka-Cide",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 1800,
-        "ap": 360,
-        "max_health": 50,
-        "max_ap": 20,
-        "rad_resist": 35,
-        "carry_weight": 35
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502b2",
-    "name": "Ice cold Nuka-Buzz",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 40,
-        "ap": 150
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502ac",
-    "name": "Ice cold Nuka-Bombdrop",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "strength": 1,
-        "endurance": 1,
-        "agility": 1
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502a9",
-    "name": "Ice cold Nuka-Berry",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 250,
-        "ap": 75,
-        "rads": -528
-    },
-    "weight": 1
-},
-{
-    "id": "xx0502af",
-    "name": "Ice cold Newka-Cola",
-    "dlc": "nuka world",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 250,
-        "ap": 75
-    },
-    "weight": 1
-},
-{
-    "id": "xx054284",
-    "name": "Ice cold Vim Quartz",
-    "dlc": "far harbor",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 75,
-        "ap": 35,
-        "carry_weight": 20
-    },
-    "weight": 1
-},
-{
-    "id": "xx054282",
-    "name": "Ice cold Vim Captain's Blend",
-    "dlc": "far harbor",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 700,
-        "ap": 120,
-        "charisma": -2
-    },
-    "weight": 1
-},
-{
-    "id": "xx054281",
-    "name": "Ice cold Vim",
-    "dlc": "far harbor",
-    "filters": ["drinks"],
-    "effect": {
-        "health": 55,
-        "ap": 10
-    },
-    "weight": 1
-},
-{
     "id": "xx030ef6",
     "name": "Nuka-Cide",
     "dlc": "nuka world",
@@ -5126,14 +4868,656 @@
     }]
 },
 {
-    "id": "xx054286",
-    "name": "Ice cold Vim Refresh",
+    "id": "xx030eff",
+    "name": "Newka-Cola",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 200,
+        "ap": 50
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "00048360"
+    }]
+},
+{
+    "id": "xx030efd",
+    "name": "Nuka-Berry",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 200,
+        "ap": 50,
+        "rads": -500
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "00048360"
+    },
+    {
+        "qty": 1,
+        "id": "xx024534"
+    }]
+},
+{
+    "id": "xx030f02",
+    "name": "Nuka-Buzz",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 35,
+        "ap": 125
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "xx02453d"
+    }]
+},
+{
+    "id": "xx03b8b4",
+    "name": "Nuka-Bombdrop",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "strength": 1,
+        "endurance": 1,
+        "agility": 1
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000366c4"
+    },
+    {
+        "qty": 1,
+        "id": "xx024536"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "00145857"
+    },
+    {
+        "qty": 1,
+        "id": "000366c3"
+    }]
+},
+{
+    "id": "xx03b8b2",
+    "name": "Nuka-Ray",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 999,
+        "rad_resist": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx02453a"
+    },
+    {
+        "qty": 1,
+        "id": "xx024544"
+    }]
+},
+{
+    "id": "xx030ef8",
+    "name": "Nuka-Rush",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 999,
+        "ap": 40
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx024544"
+    },
+    {
+        "qty": 1,
+        "id": "xx02453d"
+    }]
+},
+{
+    "id": "xx042c43",
+    "name": "Nuka-Sunrise",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "ap": 50,
+        "rad_resist": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx02453a"
+    },
+    {
+        "qty": 1,
+        "id": "00048360"
+    }]
+},
+{
+    "id": "xx030f00",
+    "name": "Nuka-Twin",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "ap": 50
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx02453d"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    }]
+},
+{
+    "id": "xx030efb",
+    "name": "Nuka-Void",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "max_health": 30,
+        "max_ap": 10,
+        "carry_weight": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx024536"
+    },
+    {
+        "qty": 1,
+        "id": "0004835f"
+    }]
+},
+{
+    "id": "xx030ef7",
+    "name": "Nuka-Punch",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "ap": 50,
+        "max_health": 30,
+        "max_ap": 10,
+        "rads": -500
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx024534"
+    },
+    {
+        "qty": 1,
+        "id": "xx02453a"
+    },
+    {
+        "qty": 1,
+        "id": "xx024538"
+    },
+    {
+        "qty": 1,
+        "id": "00048360"
+    }]
+},
+{
+    "id": "xx030efe",
+    "name": "Nuka-Power",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "carry_weight": 60
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 2,
+        "id": "xx024536"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    }]
+},
+{
+    "id": "xx030efc",
+    "name": "Nuka-Love",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "ap": 300
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx024538"
+    },
+    {
+        "qty": 1,
+        "id": "00048360"
+    }]
+},
+{
+    "id": "xx042c41",
+    "name": "Nuka-Lixir",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "rad_resist": 25,
+        "damage_resist": 35
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx02453a"
+    },
+    {
+        "qty": 1,
+        "id": "00033779"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    }]
+},
+{
+    "id": "xx042c3d",
+    "name": "Nuka-Hearty",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 150,
+        "ap": 50,
+        "carry_weight": 25
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001c4013"
+    },
+    {
+        "qty": 1,
+        "id": "xx024536"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "0009dcc4"
+    }]
+},
+{
+    "id": "xx03b8b3",
+    "name": "Nuka-Frutti",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 200,
+        "ap": 50,
+        "rad_resist": 25,
+        "rads": -500
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx024534"
+    },
+    {
+        "qty": 1,
+        "id": "xx02453a"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "00048360"
+    }]
+},
+{
+    "id": "xx030ef9",
+    "name": "Nuka-Xtreme",
+    "dlc": "nuka world",
+    "filters": ["drinks"],
+    "effect": {
+        "max_health": 30,
+        "max_ap": 10,
+        "rads": -500
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx024534"
+    },
+    {
+        "qty": 1,
+        "id": "0004835d"
+    },
+    {
+        "qty": 1,
+        "id": "0004835f"
+    }]
+},
+{
+    "id": "xx02b5d4",
+    "name": "Ware's brew",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 100,
+        "rads": -100
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 3,
+        "id": "xx04e773"
+    }]
+},
+{
+    "id": "xx04e773",
+    "name": "Raw sap",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 20,
+        "rads": 2
+    },
+    "weight": 0.5,
+    "used_in": [
+    {
+        "qty": 3,
+        "id": "xx02b5d4"
+    }]
+},
+{
+    "id": "xx008833",
+    "name": "Vim",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 30,
+        "ap": 10
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "001bf72d"
+    },
+    {
+        "qty": 1,
+        "id": "000330f8"
+    },
+    {
+        "qty": 1,
+        "id": "00033102"
+    },
+    {
+        "qty": 1,
+        "id": "000366c0"
+    }],
+    "used_in": [
+    {
+        "qty": 1,
+        "id": "xx0088a6"
+    },
+    {
+        "qty": 1,
+        "id": "xx0088a8"
+    },
+    {
+        "qty": 1,
+        "id": "xx0088aa"
+    }]
+},
+{
+    "id": "xx0088aa",
+    "name": "Vim Refresh",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 50,
+        "ap": "35 + 10/s"
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "0002fbf7"
+    },
+    {
+        "qty": 1,
+        "id": "000ef24d"
+    },
+    {
+        "qty": 1,
+        "id": "xx008833"
+    }]
+},
+{
+    "id": "xx0088a8",
+    "name": "Vim Quartz",
     "dlc": "far harbor",
     "filters": ["drinks"],
     "effect": {
         "health": 75,
-        "ap": 60,
-        "regen_ap": "12/s"
+        "ap": 25,
+        "carry_weight": 15
     },
-    "weight": 1
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "000330f6"
+    },
+    {
+        "qty": 1,
+        "id": "000f742e"
+    },
+    {
+        "qty": 1,
+        "id": "xx008833"
+    }]
+},
+{
+    "id": "xx0088a6",
+    "name": "Vim Captain's Blend",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "health": 600,
+        "ap": 100,
+        "charisma": -2
+    },
+    "weight": 1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx013384"
+    },
+    {
+        "qty": 1,
+        "id": "000330ff"
+    },
+    {
+        "qty": 1,
+        "id": "xx008833"
+    }]
+},
+{
+    "id": "xx048bd4",
+    "name": "Agile sludgepak",
+    "dlc": "far harbor",
+    "filters": ["chems"],
+    "effect": {
+        "rads": 150,
+        "ap": "5-20/s"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx03a2d1"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 2,
+        "id": "001bf730"
+    },
+    {
+        "qty": 1,
+        "id": "00023736"
+    }]
+},
+{
+    "id": "xx03a2d1",
+    "name": "Condensed fog (junk)"
+},
+{
+    "id": "xx04b4bb",
+    "name": "Durable sludgepak",
+    "dlc": "far harbor",
+    "filters": ["chems"],
+    "effect": {
+        "rads": 150,
+        "damage_resist": "25-100"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx03a2d1"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 2,
+        "id": "000aec61"
+    },
+    {
+        "qty": 1,
+        "id": "00023736"
+    }]
+},
+{
+    "id": "xx04b5fa",
+    "name": "Fire Belly",
+    "dlc": "far harbor",
+    "filters": ["chems"],
+    "effect": {
+        "health": -30,
+        "damage": "10-30%"
+    },
+    "weight": 0.1,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx013384"
+    },
+    {
+        "qty": 2,
+        "id": "xx01b189"
+    },
+    {
+        "qty": 1,
+        "id": "000366c3"
+    }]
+},
+{
+    "id": "xx054452",
+    "name": "Resilient sludge cocktail",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "max_health": 75,
+        "rad_resist": -150
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx03a2d1"
+    },
+    {
+        "qty": 1,
+        "id": "00074d0d"
+    },
+    {
+        "qty": 1,
+        "id": "00024057"
+    }]
+},
+{
+    "id": "xx04b4b5",
+    "name": "Strong sludge cocktail",
+    "dlc": "far harbor",
+    "filters": ["drinks"],
+    "effect": {
+        "rads": 150,
+        "strength": "1-3"
+    },
+    "weight": 0.5,
+    "components": [
+    {
+        "qty": 1,
+        "id": "xx03a2d1"
+    },
+    {
+        "qty": 1,
+        "id": "000366bf"
+    },
+    {
+        "qty": 2,
+        "id": "xx044042"
+    }]
 }]
