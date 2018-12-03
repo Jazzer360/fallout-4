@@ -14,6 +14,8 @@ $ ->
         val = effect.text()
         isANum = not isNaN(val)
         if isANum
+          if cls is 'rads'
+            return Number(val) < 0
           return Number(val) > 0
         else
           return true
